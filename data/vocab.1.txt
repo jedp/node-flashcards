@@ -2658,7 +2658,7 @@ por qué
 wife
 la esposa
 
-wind
+wind (n)
 el viento
 
 window

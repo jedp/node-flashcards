@@ -1,3 +1,7 @@
+/*
+ * A single-user flash card program
+ */
+
 var redis = require('redis');
 var config = require('./config');
 
@@ -69,6 +73,16 @@ if (!module.parent) {
   });
 }
 
+/*
+ * shuffleDeck(callback)
+ *
+ * XXX bad name for this function
+ * Re-read the vocab file and shuffle the deck.  This is useful
+ * for adding new words to the vocab without dumping the redis
+ * db and so losing track of which words the student knows better.
+ *
+ */
+
 function shuffleDeck(callback) {
   callback = callback || function() {};
 
@@ -82,12 +96,22 @@ function shuffleDeck(callback) {
   });
 }
 
+/*
+ * For debugging; show the first 30 cards in the deck
+ */
+
 function showFrontOfDeck() {
   redisClient.lrange('deck', 0, 29, function(err, elems) {
     console.log("deck front: ");
     console.log(elems);
   });
 }
+
+/*
+ * moveFirstCardBack(offset, callback)
+ *
+ * Pop the first card off the deck and move it back 'offset' places.
+ */
 
 function moveFirstCardBack(offset, callback) {
   // Move the front card back in the deck.
@@ -100,6 +124,15 @@ function moveFirstCardBack(offset, callback) {
     });
   });
 };
+
+/* 
+ * guessedRight(callback)
+ *
+ * The student got the word right.  Increment the count of 
+ * correct guesses, and then move the card back in the deck.
+ * The better the student knows the word, the farther back
+ * the card goes.
+ */
 
 function guessedRight(callback) {
   var word = currentWord;
@@ -127,6 +160,14 @@ function guessedRight(callback) {
   });
 };
 
+/*
+ * guessedWrong(callback)
+ *
+ * The student wasn't sure of the word.  Decrement the count
+ * of correct gesses, if it's greater than 0, and move the card
+ * 5 to 10 slots back in the deck.
+ */
+
 function guessedWrong(callback) {
   var word = currentWord;
   redisClient.get('known:'+word, function(err, times) {
@@ -144,6 +185,14 @@ function guessedWrong(callback) {
     });
   });
 };
+
+/*
+ * drawCard()
+ *
+ * Show the card at the front of the deck.  Set the global
+ * variables currentWord and currentDef to the card's word
+ * and definition respectively.  
+ */
 
 function drawCard() {
   //showFrontOfDeck();
@@ -163,10 +212,23 @@ function drawCard() {
   });
 }
 
+/*
+ * exit()
+ *
+ * Quit the program.  We don't need to save any state, because
+ * the deck is only modified on a right or wrong guess.
+ */
+
 function exit() {
   console.log("Ok, bye!");
   process.exit();
 };
+
+/*
+ * showHelp()
+ *
+ * Print enlightening information about how to use the CLI.
+ */
 
 function showHelp() {
   console.log(
@@ -174,6 +236,7 @@ function showHelp() {
       "My god, it's full of Spanish flash cards.\n",
       "I'll keep track of how well you know each word.\n",
       "Use the following keys to respond: \n\n",
+      "(h) Show this help again\n",
       "(y) Yes, I know it\n",
       "(n) No, I don't know it -- what is it?\n",
       "(s) Reshuffle deck\n",
