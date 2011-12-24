@@ -496,6 +496,9 @@ venir
 computer
 la computadora
 
+constitution, temperament
+la complexión
+
 to |cook
 cocinar
 
@@ -547,6 +550,9 @@ el peligro
 dark
 oscuro
 
+daily (adj)
+diario
+
 day 
 el día
 
@@ -571,6 +577,9 @@ el distista
 department
 la sección
 
+diary
+el diario
+
 different
 diferent
 
@@ -591,6 +600,9 @@ el dinosaurio
 
 dirty
 sucio
+
+disappointment
+la decepción
 
 dish
 el plato
@@ -685,6 +697,9 @@ vacío
 to |end
 terminar
 
+enjoy
+disfrutar
+
 enough
 sufficiente
 
@@ -729,6 +744,9 @@ lejos
 
 faraway
 lejano
+
+farmer
+el granjero
 
 fast
 rápido
@@ -823,6 +841,9 @@ olvidar
 fork
 el tenedor
 
+former, old
+antiguo
+
 fox
 el zorro
 
@@ -876,6 +897,9 @@ contento
 
 glass
 el vidrio
+
+drinking |glass
+el vaso
 
 glasses (spectacles)
 los anteojos
@@ -937,6 +961,9 @@ gris
 great
 fantástico
 
+greater, older
+mayor
+
 green
 verde
 
@@ -993,6 +1020,9 @@ tener
 
 head
 la cabeza
+
+healthy
+sano
 
 to |hear
 oir
@@ -1092,6 +1122,9 @@ la idea
 
 imprtant
 importante
+
+ink
+la tinta
 
 inside
 dentro (de)
@@ -1381,6 +1414,9 @@ el minuto
 mirror
 el espejo
 
+misfortune
+la desgracia
+
 to |miss, fail to obtain
 perder
 
@@ -1389,6 +1425,9 @@ los mitones
 
 to mix
 mezclar
+
+moderation
+la mesura
 
 mom
 la mamá
@@ -1801,8 +1840,14 @@ la papa
 to |pound
 clavar
 
-present
+pregnant
+embarazada
+
+present (n)
 el regalo
+
+present, of the present day
+actual
 
 pretty
 bonito
@@ -1813,11 +1858,14 @@ el príncipe
 princess
 la princesa
 
-prize 
+prize (n)
 el premio
 
 proud
 orgulloso
+
+publisher
+el editor
 
 to |pull
 jalar
@@ -1896,6 +1944,9 @@ llueve
 
 to read
 leer
+
+reading (n)
+la lectura
 
 ready 
 listo
@@ -1998,6 +2049,9 @@ la sal
 
 same
 igual
+
+sand
+la arena
 
 saw
 la sierra
@@ -2275,6 +2329,9 @@ el estudiante
 subway
 el tren subternnáneo
 
+success
+el éxito
+
 suddenly
 de pronto
 
@@ -2316,6 +2373,9 @@ la natación
 
 table
 la mesa
+
+tablecloth
+el mantel
 
 tail 
 el rabo
@@ -2489,6 +2549,9 @@ el camión
 
 trumpet
 la trompeta
+
+trust (n)
+la confianza
 
 to try
 tratar
