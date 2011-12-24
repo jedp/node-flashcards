@@ -1,0 +1,15 @@
+# vim ancillary files
+*.un~
+*.swp
+*.swo
+
+# other stuff
+*.zip
+*.gz
+*.tar
+*.log
+.DS_Store?
+
+# locally installed node modules
+node_modules
+
