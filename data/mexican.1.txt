@@ -263,7 +263,7 @@ bowl (n)
 la fuente
 
 bowling
-las bolos
+los bolos
 
 box
 la caja
@@ -307,7 +307,7 @@ el cepillo
 bubble
 la burbuja
 
-bug 
+bug (n)
 el insecto
 
 to |build
@@ -1010,7 +1010,7 @@ hard
 duro
 
 harp 
-el arpa
+la arpa
 
 hat
 el sombrero
@@ -1120,7 +1120,7 @@ el helado
 idea
 la idea
 
-imprtant
+important
 importante
 
 ink
@@ -1744,16 +1744,16 @@ el pingüino
 people
 la gente
 
-pepper 
+pepper (n)
 la pimienta
 
 peppers
 los pimientos
 
-perfume
+perfume (n)
 el perfume
 
-pet 
+pet (n)
 la mascota
 
 photograph
@@ -1846,7 +1846,7 @@ embarazada
 present (n)
 el regalo
 
-present, of the present day
+present-day (adj)
 actual
 
 pretty
@@ -1860,6 +1860,9 @@ la princesa
 
 prize (n)
 el premio
+
+problem
+el problema
 
 proud
 orgulloso
@@ -2114,7 +2117,7 @@ to |shop
 ir de compras
 
 short
-bajo
+corto
 
 to |shout
 gritar
@@ -2138,7 +2141,7 @@ side
 el lado
 
 sidewalk
-la acera
+la banqueta
 
 sign (n)
 el letrero
@@ -2605,7 +2608,7 @@ vacuum cleaner
 la aspiradora
 
 van
-la furgoneta
+la camioneta; la furgoneta
 
 vegetable
 la verdura
