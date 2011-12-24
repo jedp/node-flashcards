@@ -1,12 +1,10 @@
 var redis = require('redis');
 var config = require('./config');
+
 var redisClient = redis.createClient(config.redis_port, config.redis_host);
 var deckSize = 0;
 var currentWord = '';
 var currentDef = '';
-
-var stdin = process.openStdin();
-require('tty').setRawMode(true);    
 
 /*
  * maybe initialize vocab deck
@@ -19,6 +17,57 @@ redisClient.llen('deck', function(err, length) {
     deckSize = length;
   }
 });
+
+if (!module.parent) {
+  var stdin = process.openStdin();
+  require('tty').setRawMode(true);    
+
+  /*
+   * let the learning begin!
+   */
+
+  showHelp();
+  drawCard();
+
+  /*
+   * commands
+   */
+
+  stdin.on('keypress', function (chunk, key) {
+    if (key) {
+      switch(key.name) {
+        case 'c':
+          if (key.ctrl) exit();
+          break;
+
+        case 'q':
+          exit();
+          break;
+
+        case 'h':
+          showHelp();
+          console.log(currentWord);
+          break;
+
+        case 's':
+          shuffleDeck(drawCard);
+          break;
+
+        case 'y':
+          guessedRight(drawCard);
+          break;
+
+        case 'n':
+          console.log(" -> " + currentDef);
+          guessedWrong(drawCard);
+          break;
+
+        default:
+          break;
+      }
+    }    
+  });
+}
 
 function shuffleDeck(callback) {
   callback = callback || function() {};
@@ -52,7 +101,8 @@ function moveFirstCardBack(offset, callback) {
   });
 };
 
-function guessedRight(word, callback) {
+function guessedRight(callback) {
+  var word = currentWord;
   redisClient.get('known:'+word, function(err, times) {
     times = parseInt(times || '0', 10);
     //console.log("guessed right " + times + " times already");
@@ -77,7 +127,8 @@ function guessedRight(word, callback) {
   });
 };
 
-function guessedWrong(word, callback) {
+function guessedWrong(callback) {
+  var word = currentWord;
   redisClient.get('known:'+word, function(err, times) {
     times = parseInt(times || '0', 10);
 
@@ -100,6 +151,8 @@ function drawCard() {
     if (err) throw(err);
 
     currentWord = word;
+
+    // show the word
     console.log(currentWord);
 
     // get the definition
@@ -128,43 +181,5 @@ function showHelp() {
       );
 };
 
-stdin.on('keypress', function (chunk, key) {
-  if (key) {
-
-    if (key.ctrl && key.name === 'c') {
-      exit();
-    } else if (key.name === 'q') {
-      exit();
-    } else if (key.name === 'h') {
-      // show help and repeat current word
-      showHelp();
-      console.log(currentWord);
-    }
-
-    // Got the current word right
-    else if (key.name === 'y') {
-      guessedRight(currentWord, drawCard);
-    }
-
-    // Got the current word wrong
-    else if (key.name === 'n') {
-      console.log(" -> " + currentDef);
-      guessedWrong(currentWord, drawCard);
-    }
-
-    // Reshuffle
-    else if (key.name === 's') {
-      shuffleDeck(drawCard);
-    }
-  }    
-});
-
-
-/*
- * begin learning stuff
- */
-
-showHelp();
-drawCard();
 
 
