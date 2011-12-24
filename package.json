@@ -1,0 +1,9 @@
+{"name": "flash",
+ "version": "0.0.1",
+ "private": true,
+
+ "description": "Flash cards",
+
+ "dependencies": {
+    "redis", ""
+ }
