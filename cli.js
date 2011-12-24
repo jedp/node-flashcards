@@ -87,7 +87,7 @@ function shuffleDeck(callback) {
   callback = callback || function() {};
 
   console.log("Shuffling the deck ...");
-  require('./database').getNewDeck('data/vocab.1.txt', function() {
+  require('./database').getNewDeck('data/mexican.1.txt', function() {
     redisClient.llen('deck', function(err, length) {
       if (err) return callback (err);
       deckSize = length;
