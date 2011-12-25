@@ -283,6 +283,9 @@ la librería
 boots 
 las botas
 
+bother
+molestar
+
 bottle
 la bottella
 
@@ -721,6 +724,9 @@ el huevo
 elephant
 el elefante
 
+embarrassed
+avergonzado
+
 empty
 vacío
 
@@ -826,7 +832,7 @@ la estación de bomberos
 first
 el primero
 
-fish
+fish (n)
 el pez
 
 to |fix
@@ -858,6 +864,9 @@ volar
 
 fog
 la niebla
+
+following (adj)
+siguiente
 
 food
 la comida
@@ -904,7 +913,7 @@ en frente de
 full 
 lleno
 
-fun
+fun (adj)
 divertido
 
 funny
@@ -992,7 +1001,7 @@ grass
 el pasto
 
 grasshopper
-el saltamontes
+el saltamontes, el chapulin
 
 gray
 gris
@@ -1027,7 +1036,7 @@ la guitarra
 hair
 el cabello
 
-half
+half (n)
 la mitad
 
 hall
@@ -1414,6 +1423,9 @@ el mapa
 March
 marzo
 
+mask
+la máscara
+
 math
 las mathemáticas
 
@@ -1421,10 +1433,10 @@ May
 mayo
 
 maybe
-quizás
+quizá (quizás)
 
 mayor
-el alcalde
+el alcalde, la alcaldesa
 
 to |mean
 significar
@@ -1571,10 +1583,13 @@ next to
 junto a
 
 next
-siguiente
+próximo
 
-nice
+nice, pretty
 lindo
+
+nice, friendly
+simpático
 
 night
 la noche
@@ -1772,7 +1787,7 @@ park
 el parque
 
 parrot
-el loro
+el papagayo; el loro
 
 part, piece
 el parte
@@ -1903,7 +1918,7 @@ clavar
 pregnant
 embarazada
 
-present (n)
+present, gift (n)
 el regalo
 
 present-day (adj)
@@ -2455,7 +2470,7 @@ alto
 tambourine
 la pandereta
 
-tan
+tan (adj)
 canela
 
 to |taste
@@ -2624,7 +2639,7 @@ trust (n)
 la confianza
 
 to try
-tratar
+tratar, intentar
 
 Tuesday
 martes
@@ -2839,8 +2854,8 @@ preocupado
 to |write
 escribir
 
-wrong 
-equivocado
+wrong (adj)
+equivocado; falso
 
 X-ray
 la radiografia
