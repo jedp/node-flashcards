@@ -1,8 +1,17 @@
+about (prep)
+acerca de
+
+according to
+según
+
 across
 al otro lado
 
 to |add
 sumar
+
+in |addition to
+además de
 
 adventure
 la aventura
@@ -10,11 +19,17 @@ la aventura
 to be |afraid
 tener miedo
 
-after
+after, behind
+tras
+
+after, later than
 después
 
 again and again
 una y otra vez
+
+against
+contra
 
 to |agree
 estar de acuerdo
@@ -75,6 +90,9 @@ como
 
 to |ask
 preguntar
+
+at
+a
 
 attic
 el ático
@@ -183,6 +201,12 @@ el escarabajo
 
 before
 antes (de)
+
+before anyone
+antes de nadie
+
+before anything
+antes de nada
 
 to |begin
 comenzar
@@ -661,6 +685,9 @@ seco
 duck
 el pato
 
+during
+durante
+
 dust
 el polvo
 
@@ -741,6 +768,9 @@ el ventilador
 
 far
 lejos
+
+far from
+lejos de
 
 faraway
 lejano
@@ -855,6 +885,12 @@ el amigo, la amiga
 
 frog
 la rana
+
+from, of
+de
+
+from, since
+desde
 
 front
 frente
@@ -1123,10 +1159,13 @@ la idea
 important
 importante
 
+in, on
+en
+
 ink
 la tinta
 
-inside
+inside, within
 dentro (de)
 
 into
@@ -1495,6 +1534,9 @@ el clavo
 name (n)
 el nombre
 
+near (adv)
+cerca de
+
 neck
 el cuello
 
@@ -1639,7 +1681,7 @@ la oficina
 old
 viejo
 
-on (top of)
+on (top of), over
 sobre
 
 once
@@ -1653,6 +1695,9 @@ en unico
 
 open
 abierto
+
+opposite (prep)
+enfrente (de)
 
 orange (adj)
 anaranjado
@@ -1669,8 +1714,11 @@ otro
 ouch
 ay
 
-out 
+outside (adv)
 afuera
+
+outside of
+fuera de
 
 outdoors
 al aire libre
@@ -1779,6 +1827,12 @@ la almohada
 
 pink 
 rosado
+
+place (n)
+el lugar
+
+in |place of
+en lugar de
 
 to |place
 poner
@@ -2482,6 +2536,9 @@ el neumático
 tired
 cansado
 
+to
+a
+
 today
 hoy
 
@@ -2509,10 +2566,14 @@ el diente
 toothbrush
 el cepillo de dientes
 
-top encima
+on |top of 
+encima de
 
 to |touch
 tocar
+
+toward
+hacia
 
 towel
 la toalla
@@ -2584,7 +2645,7 @@ uncle
 el tío
 
 under
-debajo
+debajo (de)
 
 until
 hasta
