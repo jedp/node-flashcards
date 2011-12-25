@@ -15,7 +15,7 @@ function getDeckFromFile(filename, callback) {
 function shuffleDeckInPlace(deck) {
   // shuffle deck in place
   var length = deck.length;
-  var lastIndex = length - 1;
+  var lastIndex = length;
   var a, b, temp;
 
   while (length--) {
