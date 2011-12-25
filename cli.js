@@ -10,18 +10,6 @@ var deckSize = 0;
 var currentWord = '';
 var currentDef = '';
 
-/*
- * maybe initialize vocab deck
- */
-
-redisClient.llen('deck', function(err, length) {
-  if (length === 0) {
-    shuffleDeck();
-  } else {
-    deckSize = length;
-  }
-});
-
 if (!module.parent) {
   var stdin = process.openStdin();
   require('tty').setRawMode(true);    
@@ -30,8 +18,12 @@ if (!module.parent) {
    * let the learning begin!
    */
 
-  showHelp();
-  drawCard();
+  maybeInitializeDeck(function(err) {
+    if (err) throw (err);
+
+    showHelp();
+    drawCard();
+  });
 
   /*
    * commands
@@ -72,6 +64,26 @@ if (!module.parent) {
     }    
   });
 }
+
+/*
+ * maybeInitializeDeck(callback)
+ *
+ * If Initialize the deck if it doesn't exist
+ */
+
+function maybeInitializeDeck(callback) {
+  redisClient.llen('deck', function(err, length) {
+    if (err) return callback(err);
+
+    if (length === 0) {
+      return shuffleDeck(callback);
+    } else {
+      deckSize = length;
+      return callback(null);
+    }
+  });
+}
+
 
 /*
  * shuffleDeck(callback)
