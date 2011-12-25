@@ -15,12 +15,12 @@ function getDeckFromFile(filename, callback) {
 function shuffleDeckInPlace(deck) {
   // shuffle deck in place
   var length = deck.length;
-  var elems = length;
+  var lastIndex = length - 1;
   var a, b, temp;
 
   while (length--) {
-    a = Math.floor(Math.random() * elems);
-    b = Math.floor(Math.random() * elems);
+    a = Math.floor(Math.random() * lastIndex);
+    b = Math.floor(Math.random() * lastIndex);
     temp = deck[a];
     deck[a] = deck[b];
     deck[b] = temp;
@@ -41,7 +41,7 @@ module.exports.getNewDeck = function getNewDeck(filename, callback) {
 
     var multi = client.multi();
     deck.forEach(function(pair) {
-      if (pair[0]) {
+      if (pair[0] && pair[1]) {
         multi.set('vocab:'+pair[0], pair[1]);
         multi.lpush('deck', pair[0]);
       }
