@@ -50,7 +50,12 @@ if (!module.parent) {
           break;
 
         case 'y':
-          guessedRight(drawCard);
+          if (key.shift) {
+            console.log("   Ok, put that at the back of the deck.");
+            putWayBack(drawCard);
+          } else {
+            guessedRight(drawCard);
+          }
           break;
 
         case 'n':
@@ -98,7 +103,7 @@ function maybeInitializeDeck(callback) {
 function shuffleDeck(callback) {
   callback = callback || function() {};
 
-  console.log("Shuffling the deck ...");
+  console.log("   OK, reshuffled the deck.");
   require('./database').getNewDeck('data/mexican.1.txt', function() {
     redisClient.llen('deck', function(err, length) {
       if (err) return callback (err);
@@ -137,6 +142,16 @@ function moveFirstCardBack(offset, callback) {
   });
 };
 
+/*
+ * putWayBack(callback)
+ *
+ * For cards you really know.  Put them at the end of the deck.
+ */
+
+function putWayBack(callback) {
+  moveFirstCardBack(deckSize, callback);
+};
+
 /* 
  * guessedRight(callback)
  *
@@ -163,7 +178,7 @@ function guessedRight(callback) {
       // Add a slight randomization, so series of correct guesses
       // can get mixed a bit.
       var offset = Math.min(
-        Math.floor(times * Math.floor(Math.random() * 3 + 7)) + 10, 
+        Math.floor(times * (10 + (Math.floor(Math.random() * 3 + 7)))),
         deckSize);
       //console.log(times + " times; offset " + offset);
 
@@ -250,6 +265,7 @@ function showHelp() {
       "Use the following keys to respond: \n\n",
       "(h) Show this help again\n",
       "(y) Yes, I know it\n",
+      "(Y) OMG that's so obvious!\n",
       "(n) No, I don't know it -- what is it?\n",
       "(s) Reshuffle deck\n",
       "(q) Quit\n"
