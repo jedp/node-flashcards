@@ -124,6 +124,9 @@ la bolsa
 bakery 
 la panadería
 
+balance
+el equilibrio
+
 ball 
 la pelota
 
@@ -596,7 +599,7 @@ deer
 el venado
 
 dentist
-el distista
+el dentista
 
 department
 la sección
@@ -1533,6 +1536,9 @@ el clavo
 
 name (n)
 el nombre
+
+nature
+la naturaleza
 
 near (adv)
 cerca de
