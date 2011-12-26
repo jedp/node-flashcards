@@ -2719,7 +2719,10 @@ el volcán
 to |wait
 esperar
 
-to |wake up
+to |wake up (vt)
+despertar
+
+to |wake up (vi)
 despertarse
 
 to |walk
