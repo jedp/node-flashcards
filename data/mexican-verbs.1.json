@@ -1,0 +1,1044 @@
+{
+"añadir":
+  {"gerundio": "añadiendo",
+   "participio pasado": "añadido",
+
+   "presente de indicativo": 
+      ["añado", "añades", "añade", "añadimos", "añaden"],
+   "imperfecto de indicativo": 
+      ["añadía", "añadías", "añadía", "añadíamos", "añadían"],
+   "pretérito": 
+      ["añadí", "añadiste", "añadió", "añadimos", "añadieron"],
+   "futuro": 
+      ["añadiré", "añadirás", "añadirá", "añadiremos", "añadirán"],
+   "perfecto de indicativo": 
+      ["he añadido", "has añadido", "ha añadido", "hemos añadido", "han añadido"],
+   "pluscuamperfecto de indicativo": 
+      ["había añadido", "habías añadido", "había añadido", "habíamos añadido", "habían añadido"],
+   "futuro perfecto": 
+      ["habré añadido", "habrás añadido", "habrá añadido", "habremos añadido", "habrán añadido"],
+
+   "potencial simple": 
+      ["añadiría", "añadirías", "añadiría", "añadiríamos", "añadirían"],
+   
+   "imperativo": 
+      ["añade; no añadas", "añada", "añademos", "añadan"]
+  },
+
+"caminar":
+  {"gerundio": "caminando",
+   "participio pasado": "caminado",
+
+   "presente de indicativo": 
+      ["camino", "caminas", "camina", "caminamos", "caminan"],
+   "imperfecto de indicativo": 
+      ["caminaba", "caminabas", "caminaba", "caminábamos", "caminaban"],
+   "pretérito": 
+      ["caminé", "caminaste", "caminó", "caminamos", "caminaron"],
+   "futuro": 
+      ["caminaré", "caminarás", "caminará", "caminaremos", "caminarán"],
+   "perfecto de indicativo": 
+      ["he caminado", "has caminado", "ha caminado", "hemos caminado", "han caminado"],
+   "pluscuamperfecto de indicativo": 
+      ["había caminado", "habías caminado", "había caminado", "habíamos caminado", "habían caminado"],
+   "futuro perfecto": 
+      ["habré caminado", "habrás caminado", "habrá caminado", "habremos caminado", "habrán caminado"],
+
+   "potencial simple": 
+      ["caminaría", "caminarías", "caminaría", "caminaríamos", "caminarían"],
+   
+   "imperativo": 
+      ["camina; no camines", "camine", "caminemos", "caminen"]
+  },
+
+"comenzar":
+  {"gerundio": "comenzando",
+   "participio pasado": "comenzado",
+
+   "presente de indicativo": 
+      ["cominenzo", "comienzas", "comienza", "comenzamos", "comienzan"],
+   "imperfecto de indicativo": 
+      ["comenzaba", "comenzabas", "comenzaba", "comenzábamos", "comenzaban"],
+   "pretérito": 
+      ["comencé", "comenzaste", "comenzó", "comenzamos", "comenzaron"],
+   "futuro": 
+      ["comenzaré", "comenzarás", "comenzará", "comenzaremos", "comenzarán"],
+   "perfecto de indicativo": 
+      ["he comenzado", "has comenzado", "ha comenzado", "hemos comenzado", "han comenzado"],
+   "pluscuamperfecto de indicativo": 
+      ["había comenzado", "habías comenzado", "había comenzado", "habíamos comenzado", "habían comenzado"],
+   "futuro perfecto": 
+      ["habré comenzado", "habrás comenzado", "habrá comenzado", "habremos comenzado", "habrán comenzado"],
+
+   "potencial simple": 
+      ["comenzaría", "comenzarías", "comenzaría", "comenzaríamos", "comenzarían"],
+   
+   "imperativo": 
+      ["comienza; no cominences", "comience", "comencemos", "comiencen"]
+  },
+
+"conocer":
+  {"gerundio": "conociendo",
+   "participio pasado": "conocido",
+
+   "presente de indicativo": 
+      ["conozco", "conoces", "conoce", "conocemos", "conocen"],
+   "imperfecto de indicativo": 
+      ["conocía", "conocías", "conocía", "conocíamos", "conocían"],
+   "pretérito": 
+      ["conocí", "conociste", "conoció", "conocimos", "conocieron"],
+   "futuro": 
+      ["conoceré", "conocerás", "conocerá", "conoceremos", "conocerán"],
+   "perfecto de indicativo": 
+      ["he conocido", "has conocido", "ha conocido", "hemos conocido", "han conocido"],
+   "pluscuamperfecto de indicativo": 
+      ["había conocido", "habías conocido", "había conocido", "habíamos conocido", "habían conocido"],
+   "futuro perfecto": 
+      ["habré conocido", "habrás conocido", "habrá conocido", "habremos conocido", "habrán conocido"],
+
+   "potencial simple": 
+      ["conocería", "conocerías", "conocería", "conoceríamos", "conocerían"],
+   
+   "imperativo": 
+      ["conoce; no conozcas", "conozca", "conozcamos", "conozcan"]
+  },
+
+"creer":
+  {"gerundio": "creyendo",
+   "participio pasado": "creído",
+
+   "presente de indicativo": 
+      ["creo", "crees", "cree", "creemos", "creen"],
+   "imperfecto de indicativo": 
+      ["creía", "creías", "creía", "creíamos", "creían"],
+   "pretérito": 
+      ["creí", "creíste", "creyó", "creímos", "creyeron"],
+   "futuro": 
+      ["creeré", "creerás", "creerá", "creeremos", "creerán"],
+   "perfecto de indicativo": 
+      ["he creído", "has creído", "ha creído", "hemos creído", "han creído"],
+   "pluscuamperfecto de indicativo": 
+      ["había creído", "habías creído", "había creído", "habíamos creído", "habían creído"],
+   "futuro perfecto": 
+      ["habré creído", "habrás creído", "habrá creído", "habremos creído", "habrán creído"],
+
+   "potencial simple": 
+      ["creería", "creerías", "creería", "creeríamos", "creerían"],
+   
+   "imperativo": 
+      ["cree; no creas", "crea", "creamos", "crean"]
+  },
+
+"dar":
+  {"gerundio": "dando",
+   "participio pasado": "dado",
+
+   "presente de indicativo": 
+      ["doy", "das", "da", "damos", "dan"],
+   "imperfecto de indicativo": 
+      ["daba", "dabas", "daba", "dábamos", "daban"],
+   "pretérito": 
+      ["di", "diste", "dío", "dimos", "dieron"],
+   "futuro": 
+      ["daré", "darás", "dará", "daremos", "darán"],
+   "perfecto de indicativo": 
+      ["he dado", "has dado", "ha dado", "hemos dado", "han dado"],
+   "pluscuamperfecto de indicativo": 
+      ["había dado", "habías dado", "había dado", "habíamos dado", "habían dado"],
+   "futuro perfecto": 
+      ["habré dado", "habrás dado", "habrá dado", "habremos dado", "habrán dado"],
+
+   "potencial simple": 
+      ["daría", "darías", "daría", "daríamos", "darían"],
+   
+   "imperativo": 
+      ["da; no des", "dé", "demos", "den"]
+  },
+
+"deber":
+  {"gerundio": "debiendo",
+   "participio pasado": "debido",
+
+   "presente de indicativo": 
+      ["debo", "debes", "debe", "debemos", "deben"],
+   "imperfecto de indicativo": 
+      ["debía", "debías", "debía", "debíamos", "debían"],
+   "pretérito": 
+      ["debí", "debiste", "debió", "debimos", "debieron"],
+   "futuro": 
+      ["deberé", "deberás", "deberá", "deberemos", "deberán"],
+   "perfecto de indicativo": 
+      ["he debido", "has debido", "ha debido", "hemos debido", "han debido"],
+   "pluscuamperfecto de indicativo": 
+      ["había debido", "habías debido", "había debido", "habíamos debido", "habían debido"],
+   "futuro perfecto": 
+      ["habré debido", "habrás debido", "habrá debido", "habremos debido", "habrán debido"],
+
+   "potencial simple": 
+      ["debería", "deberías", "debería", "deberíamos", "deberían"],
+   
+   "imperativo": 
+      ["debe; no debas", "deba", "debamos", "deban"]
+  },
+
+"decir":
+  {"gerundio": "diciendo",
+   "participio pasado": "dicho",
+
+   "presente de indicativo": 
+      ["digo", "dices", "dice", "decimos", "dicen"],
+   "imperfecto de indicativo": 
+      ["decía", "decías", "decía", "decíamos", "decían"],
+   "pretérito": 
+      ["dije", "dijiste", "dijo", "dijimos", "dijeron"],
+   "futuro": 
+      ["diré", "dirás", "dirá", "dirémos", "dirán"],
+   "perfecto de indicativo": 
+      ["he dicho", "has dicho", "ha dicho", "hemos dicho", "han dicho"],
+   "pluscuamperfecto de indicativo": 
+      ["había dicho", "habías dicho", "había dicho", "habíamos dicho", "habían dicho"],
+   "futuro perfecto": 
+      ["habré dicho", "habrás dicho", "habrá dicho", "habrémos dicho", "habrán dicho"],
+
+   "potencial simple": 
+      ["diría", "dirías", "diría", "diríamos", "dirían"],
+   
+   "imperativo": 
+      ["di; no digas", "diga", "digamos", "digan"]
+  },
+
+"dejar":
+  {"gerundio": "dejando",
+   "participio pasado": "dejado",
+
+   "presente de indicativo": 
+      ["dejo", "dejas", "deja", "dejamos", "dejan"],
+   "imperfecto de indicativo": 
+      ["dejaba", "dejabas", "dejaba", "dejabamos", "dejaban"],
+   "pretérito": 
+      ["dejé", "dejáste", "dejó", "dejamos", "dejaron"],
+   "futuro": 
+      ["dejaré", "dejarás", "dejará", "dejaremos", "dejarán"],
+   "perfecto de indicativo": 
+      ["he dejado", "has dejado", "ha dejado", "hemos dejado", "han dejado"],
+   "pluscuamperfecto de indicativo": 
+      ["había dejado", "habías dejado", "había dejado", "habíamos dejado", "habían dejado"],
+   "futuro perfecto": 
+      ["habré dejado", "habrás dejado", "habrá dejado", "habremos dejado", "habrán dejado"],
+
+   "potencial simple": 
+      ["dejaría", "dejarías", "dejaría", "dejaríamos", "dejarían"],
+   
+   "imperativo": 
+      ["deja; no dejes", "deje", "dejemos", "dejen"]
+  },
+
+"encontrar":
+  {"gerundio": "encontrando",
+   "participio pasado": "encontrado",
+
+   "presente de indicativo": 
+      ["encuentro", "encuentras", "encuentra", "encontramos", "encuentran"],
+   "imperfecto de indicativo": 
+      ["encontraba", "encontrabas", "encontraba", "encontrábamos", "encontraban"],
+   "pretérito": 
+      ["encontré", "encontraste", "encontró", "encontramos", "encontraron"],
+   "futuro": 
+      ["encontraré", "encontrarás", "encontrará", "encontraremos", "encontrarán"],
+   "perfecto de indicativo": 
+      ["he encontrado", "has encontrado", "ha encontrado", "hemos encontrado", "han encontrado"],
+   "pluscuamperfecto de indicativo": 
+      ["había encontrado", "habías encontrado", "había encontrado", "habíamos encontrado", "habían encontrado"],
+   "futuro perfecto": 
+      ["habré encontrado", "habrás encontrado", "habrá encontrado", "habremos encontrado", "habrán encontrado"],
+
+   "potencial simple": 
+      ["encontraría", "encontrarías", "encontraría", "encontraríamos", "encontrarían"],
+   
+   "imperativo": 
+      ["encuentra; no encuentres", "encuentre", "encuentremos", "encuentren"]
+  },
+
+"esperar":
+  {"gerundio": "esperando",
+   "participio pasado": "esperado",
+
+   "presente de indicativo": 
+      ["espero", "esperas", "espera", "esperamos", "esperan"],
+   "imperfecto de indicativo": 
+      ["esperaba", "esperabas", "esperaba", "esperabamos", "esperaban"],
+   "pretérito": 
+      ["esperé", "esperaste", "esperó", "esperamos", "esperaron"],
+   "futuro": 
+      ["esperaré", "esperarás", "esperará", "esperaremos", "esperarán"],
+   "perfecto de indicativo": 
+      ["he esperado", "has esperado", "ha esperado", "hemos esperado", "han esperado"],
+   "pluscuamperfecto de indicativo": 
+      ["había esperado", "habías esperado", "había esperado", "habíamos esperado", "habían esperado"],
+   "futuro perfecto": 
+      ["habré esperado", "habrás esperado", "habrá esperado", "habremos esperado", "habrán esperado"],
+
+   "potencial simple": 
+      ["esperaría", "esperarías", "esperaría", "esperaríamos", "esperarían"],
+   
+   "imperativo": 
+      ["espera; no esperes", "espere", "esperemos", "esperen"]
+  },
+
+"estar":
+  {"gerundio": "estando",
+   "participio pasado": "estado",
+
+   "presente de indicativo": 
+      ["estoy", "estás", "está", "estámos", "están"],
+   "imperfecto de indicativo": 
+      ["estaba", "estabas", "estaba", "estábamos", "estaban"],
+   "pretérito": 
+      ["estuve", "estuviste", "estuvo", "estuvimos", "estuvieron"],
+   "futuro": 
+      ["estaré", "estarás", "estará", "estaremos", "estarán"],
+   "perfecto de indicativo": 
+      ["he estado", "has estado", "ha estado", "hemos estado", "han estado"],
+   "pluscuamperfecto de indicativo": 
+      ["había estado", "habías estado", "había estado", "habíamos estado", "habían estado"],
+   "futuro perfecto": 
+      ["habré estado", "habrás estado", "habrá estado", "habremos estado", "habrán estado"],
+
+   "potencial simple": 
+      ["estaría", "estarías", "estaría", "estaríamos", "estarían"],
+   
+   "imperativo": 
+      ["está; no estés", "esté", "estemos", "estén"]
+  },
+
+"explicar":
+  {"gerundio": "explicando",
+   "participio pasado": "explicado",
+
+   "presente de indicativo": 
+      ["explico", "explicas", "explica", "explicamos", "explican"],
+   "imperfecto de indicativo": 
+      ["explicaba", "explicabas", "explicaba", "explicábamos", "explicaban"],
+   "pretérito": 
+      ["expliqué", "explicaste", "explicó", "explicamos", "explicaron"],
+   "futuro": 
+      ["explicaré", "explicarás", "explicará", "explicaremos", "explicarán"],
+   "perfecto de indicativo": 
+      ["he explicado", "has explicado", "ha explicado", "hemos explicado", "han explicado"],
+   "pluscuamperfecto de indicativo": 
+      ["había explicado", "habías explicado", "había explicado", "habíamos explicado", "habían explicado"],
+   "futuro perfecto": 
+      ["habré explicado", "habrás explicado", "habrá explicado", "habremos explicado", "habrán explicado"],
+
+   "potencial simple": 
+      ["explicaría", "explicarías", "explicaría", "explicaríamos", "explicarían"],
+   
+   "imperativo": 
+      ["explica; no expliques", "explique", "expliquemos", "expliquen"]
+  },
+
+"faltar":
+  {"gerundio": "faltando",
+   "participio pasado": "faltado",
+
+   "presente de indicativo": 
+      ["falto", "faltas", "falta", "faltamos", "faltan"],
+   "imperfecto de indicativo": 
+      ["faltaba", "faltabas", "faltaba", "faltábamos", "faltaban"],
+   "pretérito": 
+      ["falté", "faltaste", "faltó", "faltamos", "faltaron"],
+   "futuro": 
+      ["faltaré", "faltarás", "faltará", "faltaremos", "faltarán"],
+   "perfecto de indicativo": 
+      ["he faltado", "has faltado", "ha faltado", "hemos faltado", "han faltado"],
+   "pluscuamperfecto de indicativo": 
+      ["había faltado", "habías faltado", "había faltado", "habíamos faltado", "habían faltado"],
+   "futuro perfecto": 
+      ["habré faltado", "habrás faltado", "habrá faltado", "habremos faltado", "habrán faltado"],
+
+   "potencial simple": 
+      ["faltaría", "faltarías", "faltaría", "faltaríamos", "faltarían"],
+   
+   "imperativo": 
+      ["falta; no faltes", "falte", "faltemos", "falten"]
+  },
+
+"ganar":
+  {"gerundio": "ganando",
+   "participio pasado": "ganado",
+
+   "presente de indicativo": 
+      ["gano", "ganas", "gana", "ganamos", "ganan"],
+   "imperfecto de indicativo": 
+      ["ganaba", "ganabas", "ganaba", "ganábamos", "ganabam"],
+   "pretérito": 
+      ["gané", "ganaste", "ganó", "ganamos", "ganaron"],
+   "futuro": 
+      ["ganaré", "ganarás", "ganará", "ganaremos", "ganarán"],
+   "perfecto de indicativo": 
+      ["he ganado", "has ganado", "ha ganado", "hemos ganado", "han ganado"],
+   "pluscuamperfecto de indicativo": 
+      ["había ganado", "habías ganado", "había ganado", "habíamos ganado", "habían ganado"],
+   "futuro perfecto": 
+      ["habré ganado", "habrás ganado", "habrá ganado", "habremos ganado", "habrán ganado"],
+
+   "potencial simple": 
+      ["ganaría", "ganarías", "ganaría", "ganaríamos", "ganarían"],
+   
+   "imperativo": 
+      ["gana; no ganes", "gane", "ganemos", "ganen"]
+  },
+
+
+"haber":
+  {"gerundio": "habiendo",
+   "participio pasado": "habido",
+
+   "presente de indicativo": 
+      ["he", "has", "ha", "hemos", "han"],
+   "imperfecto de indicativo": 
+      ["había", "habías", "había", "habíamos", "habían"],
+   "pretérito": 
+      ["hubé", "hubiste", "hubó", "hubimos", "hubieron"],
+   "futuro": 
+      ["habré", "habrás", "habrá", "habremos", "habrán"],
+   "perfecto de indicativo": 
+      ["he habido", "has habido", "ha habido", "hemos habido", "han habido"],
+   "pluscuamperfecto de indicativo": 
+      ["había habido", "habías habido", "había habido", "habíamos habido", "habían habido"],
+   "futuro perfecto": 
+      ["habré habido", "habrás habido", "habrá habido", "habrémos habido", "habrán habido"],
+
+   "potencial simple": 
+      ["habría", "habrías", "habría", "habríamos", "habrían"],
+   
+   "imperativo": 
+      ["hé; no hayas", "haya", "hayamos", "hayan"]
+  },
+
+"hacer":
+  {"gerundio": "haciendo",
+   "participio pasado": "hecho",
+
+   "presente de indicativo": 
+      ["hago", "haces", "hace", "hacemos", "hacen"],
+   "imperfecto de indicativo": 
+      ["hacía", "hacías", "hacía", "hacíamos", "hacían"],
+   "pretérito": 
+      ["hice", "hiciste", "hizo", "hicimos", "hicieron"],
+   "futuro": 
+      ["haré", "harás", "hará", "haremos", "harán"],
+   "perfecto de indicativo": 
+      ["he hecho", "has hecho", "ha hecho", "hemos hecho", "han hecho"],
+   "pluscuamperfecto de indicativo": 
+      ["había hecho", "habías hecho", "había hecho", "habíamos hecho", "habían hecho"],
+   "futuro perfecto": 
+      ["habré hecho", "habrás hecho", "habrá hecho", "habremos hecho", "habrán hecho"],
+
+   "potencial simple": 
+      ["haría", "harías", "haría", "haríamos", "harían"],
+   
+   "imperativo": 
+      ["haz; no hagas", "haga", "hagamos", "hagan"]
+  },
+
+"indicar":
+  {"gerundio": "indicando",
+   "participio pasado": "indicado",
+
+   "presente de indicativo": 
+      ["indico", "indicas", "indica", "indicamos", "indican"],
+   "imperfecto de indicativo": 
+      ["indicaba", "indicabas", "indicaba", "indicábamos", "indicaban"],
+   "pretérito": 
+      ["indiqué", "indicaste", "indicó", "indicamos", "indicaron"],
+   "futuro": 
+      ["indicaré", "indicarás", "indicará", "indicaremos", "indicarán"],
+   "perfecto de indicativo": 
+      ["he indicado", "has indicado", "ha indicado", "hemos indicado", "han indicado"],
+   "pluscuamperfecto de indicativo": 
+      ["había indicado", "habías indicado", "había indicado", "habíamos indicado", "habían indicado"],
+   "futuro perfecto": 
+      ["habré indicado", "habrás indicado", "habrá indicado", "habremos indicado", "habrán indicado"],
+
+   "potencial simple": 
+      ["indicaría", "indicarías", "indicaría", "indicaríamos", "indicarían"],
+   
+   "imperativo": 
+      ["indica; no indiques", "indique", "indiquemos", "indiquen"]
+  },
+
+"ir":
+  {"gerundio": "yendo",
+   "participio pasado": "ido",
+
+   "presente de indicativo": 
+      ["voy", "vas", "va", "vamos", "van"],
+   "imperfecto de indicativo": 
+      ["iba", "ibas", "iba", "ibamos", "iban"],
+   "pretérito": 
+      ["fui", "fuiste", "fue", "fuimos", "fuieron"],
+   "futuro": 
+      ["iré", "irás", "irá", "iremos", "irán"],
+   "perfecto de indicativo": 
+      ["he ido", "has ido", "ha ido", "hemos ido", "han ido"],
+   "pluscuamperfecto de indicativo": 
+      ["había ido", "habías ido", "había ido", "habíamos ido", "habían ido"],
+   "futuro perfecto": 
+      ["habré ido", "habrás ido", "habrá ido", "habremos ido", "habrán ido"],
+
+   "potencial simple": 
+      ["iría", "irías", "iría", "iriamos", "irían"],
+   
+   "imperativo": 
+      ["ve; no vayas", "vaya", "vamos; no vayamos", "vayan"]
+  },
+
+"jugar":
+  {"gerundio": "jugando",
+   "participio pasado": "jugado",
+
+   "presente de indicativo": 
+      ["juego", "juegas", "juega", "juegamos", "juegan"],
+   "imperfecto de indicativo": 
+      ["jugaba", "jugabas", "jugaba", "jugábamos", "jugabaon"],
+   "pretérito": 
+      ["jugué", "jugaste", "jugó", "jugamos", "jugaron"],
+   "futuro": 
+      ["jugaré", "jugarás", "jugará", "jugaremos", "jugarán"],
+   "perfecto de indicativo": 
+      ["he jugado", "has jugado", "ha jugado", "hemos jugado", "han jugado"],
+   "pluscuamperfecto de indicativo": 
+      ["había jugado", "habías jugado", "había jugado", "habíamos jugado", "jabían jugado"],
+   "futuro perfecto": 
+      ["habré jugado", "habrás jugado", "habrá jugado", "habremos jugado", "habrán jugado"],
+
+   "potencial simple": 
+      ["jugaría", "jugarías", "jugaría", "jugaríamos", "jugarían"],
+   
+   "imperativo": 
+      ["juega; no juegues", "juegue", "jueguemos", "jueguen"]
+  },
+
+"llegar":
+  {"gerundio": "llegando",
+   "participio pasado": "llegado",
+
+   "presente de indicativo": 
+      ["llego", "llegas", "llega", "llegamos", "llegan"],
+   "imperfecto de indicativo": 
+      ["llegaba", "llegabas", "llegaba", "llegábamos", "llegaban"],
+   "pretérito": 
+      ["llegué", "llegaste", "llegó", "llegamos", "llegaron"],
+   "futuro": 
+      ["llegaré", "llegarás", "llegará", "llegaremos", "llegarán"],
+   "perfecto de indicativo": 
+      ["he llegado", "has llegado", "ha llegado", "hemos llegado", "han llegado"],
+   "pluscuamperfecto de indicativo": 
+      ["había llegado", "habías llegado", "había llegado", "habíamos llegado", "habían llegado"],
+   "futuro perfecto": 
+      ["habré llegado", "habrás llegado", "habrá llegado", "habremos llegado", "habrán llegado"],
+
+   "potencial simple": 
+      ["llegaría", "llegarías", "llegaría", "llegaríamos", "llegarían"],
+   
+   "imperativo": 
+      ["llega; no llegues", "llegue", "lleguemos", "lleguen"]
+  },
+
+"mostrar":
+  {"gerundio": "mostrando",
+   "participio pasado": "mostrado",
+
+   "presente de indicativo": 
+      ["muestro", "muestras", "muestra", "mostramos", "muestran"],
+   "imperfecto de indicativo": 
+      ["mostraba", "mostrabas", "mostraba", "mostrábamos", "mostraban"],
+   "pretérito": 
+      ["mostré", "mostraste", "mostró", "mostramos", "mostraon"],
+   "futuro": 
+      ["mostraré", "mostrarás", "mostrará", "mostraremos", "mostrarán"],
+   "perfecto de indicativo": 
+      ["he mostrado", "has mostrado", "ha mostrado", "hemos mostrado", "han mostrado"],
+   "pluscuamperfecto de indicativo": 
+      ["había mostrado", "habías mostrado", "había mostrado", "habíamos mostrado", "habían mostrado"],
+   "futuro perfecto": 
+      ["habré mostrado", "habrás mostrado", "habrá mostrado", "habremos mostrado", "habrán mostrado"],
+
+   "potencial simple": 
+      ["mostraría", "mostrarías", "mostraría", "mostraríamos", "mostrarían"],
+   
+   "imperativo": 
+      ["muestra; no muestres", "muestre", "muestremos", "muestren"]
+  },
+
+"parecer":
+  {"gerundio": "pareciendo",
+   "participio pasado": "parecido",
+
+   "presente de indicativo": 
+      ["parezco", "pareces", "parece", "parecemos", "parecen"],
+   "imperfecto de indicativo": 
+      ["parecía", "parecías", "parecía", "parecíamos", "parecían"],
+   "pretérito": 
+      ["pareci", "pareciste", "pareció", "parecimos", "parecieron"],
+   "futuro": 
+      ["pareceré", "parecerás", "parecerá", "pareceremos", "parecerán"],
+   "perfecto de indicativo": 
+      ["he parecido", "has parecido", "ha parecido", "hemos parecido", "han parecido"],
+   "pluscuamperfecto de indicativo": 
+      ["había parecido", "habías parecido", "había parecido", "habíamos parecido", "habían parecido"],
+   "futuro perfecto": 
+      ["habré parecido", "habrás parecido", "habrá parecido", "habremos parecido", "habrán parecido"],
+
+   "potencial simple": 
+      ["parecería", "parecerías", "parecería", "pareceríamos", "parecerían"],
+   
+   "imperativo": 
+      ["parece; no parezcas", "parezca", "parezcamos", "parezcan"]
+  },
+
+"partir":
+  {"gerundio": "partiendo",
+   "participio pasado": "partido",
+
+   "presente de indicativo": 
+      ["parto", "partes", "parte", "partemos", "parten"],
+   "imperfecto de indicativo": 
+      ["partía", "partías", "partía", "partíamos", "partían"],
+   "pretérito": 
+      ["partí", "partiste", "partió", "partimos", "partieron"],
+   "futuro": 
+      ["partiré", "partirás", "partirá", "partiremos", "partirán"],
+   "perfecto de indicativo": 
+      ["he partido", "has partido", "ha partido", "hemos partido", "han partido"],
+   "pluscuamperfecto de indicativo": 
+      ["había partido", "habías partido", "había partido", "habíamos partido", "habían partido"],
+   "futuro perfecto": 
+      ["habré partido", "habrás partido", "habrá partido", "habremos partido", "habrán partido"],
+
+   "potencial simple": 
+      ["partiría", "partirías", "partiría", "partiríamos", "partirían"],
+   
+   "imperativo": 
+      ["parte; no partas", "parta", "partamos", "partan"]
+  },
+
+"pasar":
+  {"gerundio": "pasando",
+   "participio pasado": "pasado",
+
+   "presente de indicativo": 
+      ["paso", "pasas", "pasa", "pasamos", "pasan"],
+   "imperfecto de indicativo": 
+      ["pasaba", "pasabas", "pasaba", "pasabamos", "pasaban"],
+   "pretérito": 
+      ["pasé", "pasaste", "pasó", "pasamos", "pasaron"],
+   "futuro": 
+      ["pasaré", "pasarás", "pasará", "pasaremos", "pasarán"],
+   "perfecto de indicativo": 
+      ["he pasado", "has pasado", "ha pasado", "hemos pasado", "han pasado"],
+   "pluscuamperfecto de indicativo": 
+      ["había pasado", "habías pasado", "había pasado", "habíamos pasado", "habían pasado"],
+   "futuro perfecto": 
+      ["habré pasado", "habrás pasado", "habrá pasado", "habremos pasado", "habrán pasado"],
+
+   "potencial simple": 
+      ["pasaría", "pasarías", "pasaría", "pasaríamos", "pasarían"],
+   
+   "imperativo": 
+      ["pasa; no pases", "pase", "pasemos", "pasen"]
+  },
+
+"poder":
+  {"gerundio": "pudiendo",
+   "participio pasado": "podido",
+
+   "presente de indicativo": 
+      ["puedo", "puedes", "puede", "podemos", "pueden"],
+   "imperfecto de indicativo": 
+      ["podía", "podías", "podía", "podíamos", "podían"],
+   "pretérito": 
+      ["pude", "pudiste", "pudo", "pudimos", "pudieron"],
+   "futuro": 
+      ["podré", "podrás", "podrá", "podremos", "podrán"],
+   "perfecto de indicativo": 
+      ["he podido", "has podido", "ha podido", "hemos podido", "han podido"],
+   "pluscuamperfecto de indicativo": 
+      ["había podido", "habías podido", "había podido", "habíamos podido", "habían podido"],
+   "futuro perfecto": 
+      ["habré podido", "habrás podido", "habrá podido", "habremos podido", "habrán podido"],
+
+   "potencial simple": 
+      ["podría", "podrías", "podría", "podríamos", "podrían"],
+   
+   "imperativo": 
+      ["puede; no puedas", "pueda", "podamos", "puedan"]
+  },
+
+"poner":
+  {"gerundio": "poniendo",
+   "participio pasado": "puesto",
+
+   "presente de indicativo": 
+      ["pongo", "pones", "pone", "ponemos", "ponen"],
+   "imperfecto de indicativo": 
+      ["ponía", "ponías", "ponía", "poníamos", "ponían"],
+   "pretérito": 
+      ["puse", "pusiste", "puso", "pusimos", "pusieron"],
+   "futuro": 
+      ["pondré", "pondrás", "pondrá", "pondremos", "pondrán"],
+   "perfecto de indicativo": 
+      ["he puesto", "has puesto", "ha puesto", "hemos puesto", "han puesto"],
+   "pluscuamperfecto de indicativo": 
+      ["había puesto", "habías puesto", "había puesto", "habíamos puesto", "habían puesto"],
+   "futuro perfecto": 
+      ["habré puesto", "habrás puesto", "habrá puesto", "habrémos puesto", "habrán puesto"],
+
+   "potencial simple": 
+      ["pondría", "pondrías", "pondría", "pondríamos", "pondrían"],
+   
+   "imperativo": 
+      ["pon; no pongas", "ponga", "pongamos", "pongan"]
+  },
+
+"quedarse":
+  {"gerundio": "quedándose",
+   "participio pasado": "quedado",
+
+   "presente de indicativo": 
+      ["me quedo", "te quedas", "se queda", "nos quedamos", "se quedan"],
+   "imperfecto de indicativo": 
+      ["me quedaba", "te quedabas", "se quedaba", "nos quedabamos", "se quedaban"],
+   "pretérito": 
+      ["me quedé", "te quedaste", "se quedó", "nos quedamos", "se quedaron"],
+   "futuro": 
+      ["me quedaré", "te quedarás", "se quedará", "nos quedaremos", "se quedarán"],
+   "perfecto de indicativo": 
+      ["me he quedado", "te has quedado", "se ha quedado", "nos hemos quedado", "se han quedado"],
+   "pluscuamperfecto de indicativo": 
+      ["me había quedado", "te habías quedado", "se había quedado", "nos habíamos quedado", "se habían quedado"],
+   "futuro perfecto": 
+      ["me habré quedado", "te habrás quedado", "se habrá quedado", "nos habrémos quedado", "se habrán quedado"],
+
+   "potencial simple": 
+      ["me quedaría", "te quedarías", "se quedaría", "nos quedaríamos", "se quedarían"],
+   
+   "imperativo": 
+      ["quédate; no te quedes", "quédese", "quedémonos", "quédense"]
+  },
+
+"querer":
+  {"gerundio": "queriendo",
+   "participio pasado": "querido",
+
+   "presente de indicativo": 
+      ["quiero", "quieres", "quiere", "queremos", "quieren"],
+   "imperfecto de indicativo": 
+      ["quería", "querías", "quería", "queríamos", "querían"],
+   "pretérito": 
+      ["quise", "quisiste", "quiso", "quisimos", "quisieron"],
+   "futuro": 
+      ["querré", "querrás", "querrá", "querremos", "querrán"],
+   "perfecto de indicativo": 
+      ["he querido", "has querido", "ha querido", "hemos querido", "han querido"],
+   "pluscuamperfecto de indicativo": 
+      ["había querido", "habías querido", "había querido", "habíamos querido", "habían querido"],
+   "futuro perfecto": 
+      ["habré querido", "habrás querido", "habrá querido", "habrémos querido", "habrán querido"],
+
+   "potencial simple": 
+      ["querría", "querrías", "querría", "querríamos", "querrían"],
+   
+   "imperativo": 
+      ["quiere; no quieras", "quiera", "quieramos", "quieran"]
+  },
+
+"recibir":
+  {"gerundio": "recibiendo",
+   "participio pasado": "recibido",
+
+   "presente de indicativo": 
+      ["recibo", "recibes", "recibe", "recibimos", "reciben"],
+   "imperfecto de indicativo": 
+      ["recibía", "recibías", "recibía", "recibíamos", "recibían"],
+   "pretérito": 
+      ["recibí", "recibiste", "recibió", "recibimos", "recibieron"],
+   "futuro": 
+      ["recibiré", "recibirás", "recibirá", "recibiremos", "recibirán"],
+   "perfecto de indicativo": 
+      ["he recibido", "has recibido", "ha recibido", "hemos recibido", "han recibido"],
+   "pluscuamperfecto de indicativo": 
+      ["había recibido", "habías recibido", "había recibido", "habíamos recibido", "habían recibido"],
+   "futuro perfecto": 
+      ["habré recibido", "habrás recibido", "habrá recibido", "habremos recibido", "habrán recibido"],
+
+   "potencial simple": 
+      ["recibiría", "recibirías", "recibiría", "recibiríamos", "recibirían"],
+   
+   "imperativo": 
+      ["recibe; no recibas", "reciba", "recibamos", "reciban"]
+  },
+
+"recordar":
+  {"gerundio": "recordando",
+   "participio pasado": "recordado",
+
+   "presente de indicativo": 
+      ["recuerdo", "recuerdas", "recuerda", "recordamos", "recuerdan"],
+   "imperfecto de indicativo": 
+      ["recordaba", "recordabas", "recordaba", "recordabamos", "recordaban"],
+   "pretérito": 
+      ["recordé", "recordaste", "recordó", "recordamos", "recordaron"],
+   "futuro": 
+      ["recordaré", "recordarás", "recordará", "recordaremos", "recordarán"],
+   "perfecto de indicativo": 
+      ["he recordado", "has recordado", "ha recordado", "hemos recordado", "han recordado"],
+   "pluscuamperfecto de indicativo": 
+      ["había recordado", "habías recordado", "había recordado", "habíamos recordado", "habían recordado"],
+   "futuro perfecto": 
+      ["habré recordado", "habrás recordado", "habrá recordado", "habremos recordado", "habrán recordado"],
+
+   "potencial simple": 
+      ["recordaría", "recordarías", "recordaría", "recordaríamos", "recordarían"],
+   
+   "imperativo": 
+      ["recuerda; no recuerdes", "recuerde", "recordemos", "recuerden"]
+  },
+
+"saber":
+  {"gerundio": "sabiendo",
+   "participio pasado": "sabido",
+
+   "presente de indicativo": 
+      ["sé", "sabes", "sabe", "sabemos", "saben"],
+   "imperfecto de indicativo": 
+      ["sabía", "sabías", "sabía", "sabíamos", "sabían"],
+   "pretérito": 
+      ["supe", "supiste", "supo", "supimos", "supieron"],
+   "futuro": 
+      ["sabré", "sabrás", "sabrá", "sabremos", "sabrán"],
+   "perfecto de indicativo": 
+      ["he sabido", "has sabido", "ha sabido", "hemos sabido", "han sabido"],
+   "pluscuamperfecto de indicativo": 
+      ["había sabido", "habías sabido", "había sabido", "habíamos sabido", "habían sabido"],
+   "futuro perfecto": 
+      ["habré sabido", "habrás sabido", "habrá sabido", "habremos sabido", "habrá sabido"],
+
+   "potencial simple": 
+      ["sabría", "sabrías", "sabría", "sabríamos", "sabrían"],
+   
+   "imperativo": 
+      ["sabe; no sepas", "sepa", "sepamos", "sepan"]
+  },
+
+
+"salir":
+  {"gerundio": "saliendo",
+   "participio pasado": "salido",
+
+   "presente de indicativo": 
+      ["salgo", "sales", "sale", "salimos", "salen"],
+   "imperfecto de indicativo": 
+      ["salía", "salías", "salía", "salíamos", "salían"],
+   "pretérito": 
+      ["salí", "saliste", "salió", "salimos", "salieron"],
+   "futuro": 
+      ["saldré", "saldrás", "saldrá", "saldremos", "saldrán"],
+   "perfecto de indicativo": 
+      ["he salido", "has salido", "ha salido", "hemos salido", "han salido"],
+   "pluscuamperfecto de indicativo": 
+      ["había salido", "habías salido", "había salido", "habíamos salido", "habían salido"],
+   "futuro perfecto": 
+      ["habré salido", "habrás salido", "habrá salido", "habremos salido", "habrán salido"],
+
+   "potencial simple": 
+      ["saldría", "saldrías", "saldría", "saldríamos", "saldrían"],
+   
+   "imperativo": 
+      ["sal; no salgas", "salga", "salgamos", "salgan"]
+  },
+
+"seguir":
+  {"gerundio": "siguiendo",
+   "participio pasado": "seguido",
+
+   "presente de indicativo": 
+      ["sigo", "sigues", "sigue", "segimos", "siguen"],
+   "imperfecto de indicativo": 
+      ["seguía", "seguías", "seguía", "seguíamos", "seguían"],
+   "pretérito": 
+      ["seguí", "seguiste", "siguió", "seguimos", "sigieron"],
+   "futuro": 
+      ["seguiré", "seguirás", "seguirá", "seguiremos", "seguirán"],
+   "perfecto de indicativo": 
+      ["he seguido", "has seguido", "ha seguido", "hemos seguido", "han seguido"],
+   "pluscuamperfecto de indicativo": 
+      ["había seguido", "habías seguido", "había seguido", "habíamos seguido", "habían seguido"],
+   "futuro perfecto": 
+      ["habré seguido", "habrás seguido", "habrá seguido", "habremos seguido", "habrán seguido"],
+
+   "potencial simple": 
+      ["seguiría", "seguirías", "seguiría", "seguiríamos", "seguirían"],
+   
+   "imperativo": 
+      ["sigue; no sigas", "siga", "sigamos", "sigan"]
+  },
+
+"ser":
+  {"gerundio": "siendo",
+   "participio pasado": "sido",
+
+   "presente de indicativo": 
+      ["soy", "eres", "es", "somos", "son"],
+   "imperfecto de indicativo": 
+      ["era", "eras", "era", "éramos", "eran"],
+   "pretérito": 
+      ["fui", "fuiste", "fue", "fuimos", "fueron"],
+   "futuro": 
+      ["seré", "serás", "será", "serémos", "serán"],
+   "perfecto de indicativo": 
+      ["he sido", "has sido", "ha sido", "hemos sido", "han sido"],
+   "pluscuamperfecto de indicativo": 
+      ["había sido", "habías sido", "había sido", "habíamos sido", "habían sido"],
+   "futuro perfecto": 
+      ["habré sido", "habrás sido", "habrá sido", "habremos sido", "habrán sido"],
+
+   "potencial simple": 
+      ["sería", "serías", "sería", "seríamos", "serían"],
+   
+   "imperativo": 
+      ["sé; no seas", "sea", "seamos", "sean"]
+  },
+
+"tener":
+  {"gerundio": "teniendo",
+   "participio pasado": "tenido",
+
+   "presente de indicativo": 
+      ["tengo", "tienes", "tiene", "tenemos", "tienen"],
+   "imperfecto de indicativo": 
+      ["tenía", "tenías", "tenía", "teníamos", "tenían"],
+   "pretérito": 
+      ["tuve", "tuviste", "tuvo", "tuvimos", "tuvieron"],
+   "futuro": 
+      ["tendré", "tendrás", "tendrá", "tendremos", "tendrán"],
+   "perfecto de indicativo": 
+      ["he tenido", "has tenido", "ha tenido", "hemos tenido", "han tenido"],
+   "pluscuamperfecto de indicativo": 
+      ["había tenido", "habías tenido", "había tenido", "habíamos tenido", "habían tenido"],
+   "futuro perfecto": 
+      ["habré tenido", "habrás tenido", "habrá tenido", "habremos tenido", "habrán tenido"],
+
+   "potencial simple": 
+      ["tendría", "tendrías", "tendría", "tendríamos", "tendrían"],
+   
+   "imperativo": 
+      ["ten; no tengas", "tenga", "tengamos", "tengan"]
+  },
+
+"tomar":
+  {"gerundio": "tomando",
+   "participio pasado": "tomado",
+
+   "presente de indicativo": 
+      ["tomo", "tomas", "toma", "tomamos", "toman"],
+   "imperfecto de indicativo": 
+      ["tomaba", "tomabas", "tomaba", "tomábamos", "tomaban"],
+   "pretérito": 
+      ["tomé", "tomaste", "tomó", "tomamos", "tomaron"],
+   "futuro": 
+      ["tomaré", "tomarás", "tomará", "tomaremos", "tomarán"],
+   "perfecto de indicativo": 
+      ["he tomado", "has tomado", "ha tomado", "hemos tomado", "han tomado"],
+   "pluscuamperfecto de indicativo": 
+      ["había tomado", "habías tomado", "había tomado", "habíamos tomado", "habían tomado"],
+   "futuro perfecto": 
+      ["habré tomado", "habrás tomado", "habrá tomado", "habremos tomado", "habrán tomado"],
+
+   "potencial simple": 
+      ["tomaría", "tomarías", "tomaría", "tomaríamos", "tomarían"],
+   
+   "imperativo": 
+      ["toma; no tomes", "tome", "tomemos", "tomen"]
+  },
+
+"trabajar":
+  {"gerundio": "trabajando",
+   "participio pasado": "trabajado",
+
+   "presente de indicativo": 
+      ["trabajo", "trabajas", "trabaja", "trabajamos", "trabajan"],
+   "imperfecto de indicativo": 
+      ["trabajaba", "trabajabas", "trabajaba", "trabajabamos", "trabajaban"],
+   "pretérito": 
+      ["trabajé", "trabajaste", "trabajó", "trabajamos", "trabajaron"],
+   "futuro": 
+      ["trabajaré", "trabajarás", "trabajará", "trabajaremos", "trabajarán"],
+   "perfecto de indicativo": 
+      ["he trabajado", "has trabajado", "ha trabajado", "hemos trabajado", "han trabajado"],
+   "pluscuamperfecto de indicativo": 
+      ["había trabajado", "habías trabajado", "había trabajado", "habíamos trabajado", "habían trabajado"],
+   "futuro perfecto": 
+      ["habré trabajado", "habrás trabajado", "habrá trabajado", "habremos trabajado", "habrán trabajado"],
+
+   "potencial simple": 
+      ["trabajaría", "trabajarías", "trabajaría", "trabajaríamos", "trabajarían"],
+   
+   "imperativo": 
+      ["trabaja; no trabajes", "trabaje", "trabajemos", "trabajen"]
+  },
+
+"venir":
+  {"gerundio": "veniendo",
+   "participio pasado": "venido",
+
+   "presente de indicativo": 
+      ["vengo", "vienes", "viene", "venimos", "vienen"],
+   "imperfecto de indicativo": 
+      ["venía", "venías", "venía", "veníamos", "venían"],
+   "pretérito": 
+      ["vine", "viniste", "vino", "vinimos", "vinieron"],
+   "futuro": 
+      ["vendré", "vendrás", "vendrá", "vendremos", "vendrán"],
+   "perfecto de indicativo": 
+      ["he venido", "has venido", "ha venido", "hemos venido", "han venido"],
+   "pluscuamperfecto de indicativo": 
+      ["había venido", "habías venido", "había venido", "habíamos venido", "habían venido"],
+   "futuro perfecto": 
+      ["habré venido", "habrás venido", "habrá venido", "habremos venido", "habrán venido"],
+
+   "potencial simple": 
+      ["vendría", "vendrías", "vendría", "vendríamos", "vendrían"],
+   
+   "imperativo": 
+      ["ven; no vengas", "venga", "vengamos", "vengan"]
+  },
+
+"ver":
+  {"gerundio": "viendo",
+   "participio pasado": "visto",
+
+   "presente de indicativo": 
+      ["veo", "ves", "ve", "vemos", "ven"],
+   "imperfecto de indicativo": 
+      ["veía", "veías", "veía", "veíamos", "veían"],
+   "pretérito": 
+      ["vi", "viste", "vio", "vimos", "vieron"],
+   "futuro": 
+      ["veré", "verás", "verá", "veremos", "verán"],
+   "perfecto de indicativo": 
+      ["he visto", "has visto", "ha visto", "hemos visto", "han visto"],
+   "pluscuamperfecto de indicativo": 
+      ["había visto", "habías visto", "había visto", "habíamos visto", "habían visto"],
+   "futuro perfecto": 
+      ["habré visto", "habrás visto", "habrá visto", "habremos visto", "habrán visto"],
+
+   "potencial simple": 
+      ["vería", "verías", "vería", "veríamos", "verían"],
+   
+   "imperativo": 
+      ["ve; no veas", "vea", "veamos", "vean"]
+  }
+
+}
