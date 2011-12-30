@@ -1,0 +1,11 @@
+[ 
+  {
+   "description": "Mexican vocabulary", 
+   "filename": "mexican.1.txt"
+   },
+
+  {
+   "description": "Mexican verbs", 
+   "filename": "mexican-verbs.1.json"
+   }
+]

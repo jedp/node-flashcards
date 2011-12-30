@@ -5,5 +5,5 @@
  "description": "Flash cards",
 
  "dependencies": {
-    "redis", ""
+    "redis": ""
  }

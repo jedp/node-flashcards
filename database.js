@@ -1,5 +1,6 @@
 var redis = require('redis');
 var config = require('./config');
+var decks = JSON.parse(require('fs').readFileSync('data/decks.json'));
 
 function getDeckFromFile(filename, callback) {
   var reader = require("./reader");
@@ -27,7 +28,8 @@ function shuffleDeckInPlace(deck) {
   }
 };
 
-module.exports.getNewDeck = function getNewDeck(filename, callback) {
+module.exports.getNewDeck = function getNewDeck(deckNumber, callback) {
+  var filename = "data/" + decks[deckNumber].filename;
   getDeckFromFile(filename, function(err, deck) {
     if (err) return callback(err);
 
@@ -37,13 +39,13 @@ module.exports.getNewDeck = function getNewDeck(filename, callback) {
     var client = redis.createClient(config.redis_port, config.redis_host);
 
     // clear the existing deck
-    client.del('deck');
+    client.del('deck-'+deckNumber);
 
     var multi = client.multi();
     deck.forEach(function(pair) {
       if (pair[0] && pair[1]) {
         multi.set('vocab:'+pair[0], pair[1]);
-        multi.lpush('deck', pair[0]);
+        multi.lpush('deck-'+deckNumber, pair[0]);
       }
     });
     multi.exec(function(err, ret) {

@@ -4,8 +4,12 @@
 
 var redis = require('redis');
 var config = require('./config');
+var fs = require('fs');
 
 var redisClient = redis.createClient(config.redis_port, config.redis_host);
+var decks = JSON.parse(fs.readFileSync("data/decks.json"));
+
+var deckNumber = 0;
 var deckSize = 0;
 var currentWord = '';
 var currentDef = '';
@@ -27,13 +31,24 @@ if (!module.parent) {
 
   /*
    * commands
+   *
+   * the more this grows, the worse this gets ...
+   * XXX switch to using readline interface?
    */
 
   stdin.on('keypress', function (chunk, key) {
-    if (key) {
+    if (key && key.name) {
       switch(key.name) {
         case 'c':
           if (key.ctrl) exit();
+          break;
+
+        case 'd':
+          console.log("\nAvailable decks:");
+          decks.forEach(function(deck, index) {
+            console.log('  ' + index + ' ' + deck.description);
+          });
+          console.log("Which deck?");
           break;
 
         case 'q':
@@ -66,7 +81,20 @@ if (!module.parent) {
         default:
           break;
       }
-    }    
+
+    } else if(chunk) {    
+      // maybe typed a number?
+      var num = parseInt(chunk, 10);
+      if (num >=0 && num <= decks.length-1) {
+        deckNumber = num;
+        maybeInitializeDeck(function(err) {
+          if (err) throw (err);
+          console.log("   Ok, switching to " + decks[deckNumber].description);
+          drawCard();
+        });
+      }
+    }
+
   });
 }
 
@@ -77,7 +105,7 @@ if (!module.parent) {
  */
 
 function maybeInitializeDeck(callback) {
-  redisClient.llen('deck', function(err, length) {
+  redisClient.llen('deck-' + deckNumber, function(err, length) {
     if (err) return callback(err);
 
     if (length === 0) {
@@ -88,7 +116,6 @@ function maybeInitializeDeck(callback) {
     }
   });
 }
-
 
 /*
  * shuffleDeck(callback)
@@ -103,11 +130,12 @@ function maybeInitializeDeck(callback) {
 function shuffleDeck(callback) {
   callback = callback || function() {};
 
-  console.log("   OK, reshuffled the deck.");
-  require('./database').getNewDeck('data/mexican.1.txt', function() {
-    redisClient.llen('deck', function(err, length) {
+  var filename = 'data/' + decks[deckNumber].filename;
+  require('./database').getNewDeck(deckNumber, function() {
+    redisClient.llen('deck-'+deckNumber, function(err, length) {
       if (err) return callback (err);
       deckSize = length;
+      console.log("   OK, reshuffled the deck.");
       return callback (null);
     });
   });
@@ -118,7 +146,7 @@ function shuffleDeck(callback) {
  */
 
 function showFrontOfDeck() {
-  redisClient.lrange('deck', 0, 29, function(err, elems) {
+  redisClient.lrange('deck-'+deckNumber, 0, 29, function(err, elems) {
     console.log("deck front: ");
     console.log(elems);
   });
@@ -132,9 +160,9 @@ function showFrontOfDeck() {
 
 function moveFirstCardBack(offset, callback) {
   // Move the front card back in the deck.
-  redisClient.lpop('deck', function(err, word) {
-    redisClient.lindex('deck', offset, function(err, pivot) {
-      redisClient.linsert('deck', 'AFTER', pivot, word, function(err, ok) {
+  redisClient.lpop('deck-'+deckNumber, function(err, word) {
+    redisClient.lindex('deck-'+deckNumber, offset, function(err, pivot) {
+      redisClient.linsert('deck-'+deckNumber, 'AFTER', pivot, word, function(err, ok) {
         // console.log('  -- linsert deck AFTER ' + pivot + ' ' + word);
         return callback(err, ok);
       });
@@ -223,7 +251,7 @@ function guessedWrong(callback) {
 
 function drawCard() {
   //showFrontOfDeck();
-  redisClient.lindex('deck', 0, function(err, word) {
+  redisClient.lindex('deck-'+deckNumber, 0, function(err, word) {
     if (err) throw(err);
 
     currentWord = word;
@@ -264,6 +292,7 @@ function showHelp() {
       "I'll keep track of how well you know each word.\n",
       "Use the following keys to respond: \n\n",
       "(h) Show this help again\n",
+      "(d) Change to another deck\n",
       "(y) Yes, I know it\n",
       "(Y) OMG that's so obvious!\n",
       "(n) No, I don't know it -- what is it?\n",
