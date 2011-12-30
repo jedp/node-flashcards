@@ -105,7 +105,7 @@ if (!module.parent) {
  */
 
 function maybeInitializeDeck(callback) {
-  redisClient.llen('deck-' + deckNumber, function(err, length) {
+  redisClient.llen('deck:' + deckNumber, function(err, length) {
     if (err) return callback(err);
 
     if (length === 0) {
@@ -132,7 +132,7 @@ function shuffleDeck(callback) {
 
   var filename = 'data/' + decks[deckNumber].filename;
   require('./database').getNewDeck(deckNumber, function() {
-    redisClient.llen('deck-'+deckNumber, function(err, length) {
+    redisClient.llen('deck:'+deckNumber, function(err, length) {
       if (err) return callback (err);
       deckSize = length;
       console.log("   OK, reshuffled the deck.");
@@ -146,7 +146,7 @@ function shuffleDeck(callback) {
  */
 
 function showFrontOfDeck() {
-  redisClient.lrange('deck-'+deckNumber, 0, 29, function(err, elems) {
+  redisClient.lrange('deck:'+deckNumber, 0, 29, function(err, elems) {
     console.log("deck front: ");
     console.log(elems);
   });
@@ -160,9 +160,9 @@ function showFrontOfDeck() {
 
 function moveFirstCardBack(offset, callback) {
   // Move the front card back in the deck.
-  redisClient.lpop('deck-'+deckNumber, function(err, word) {
-    redisClient.lindex('deck-'+deckNumber, offset, function(err, pivot) {
-      redisClient.linsert('deck-'+deckNumber, 'AFTER', pivot, word, function(err, ok) {
+  redisClient.lpop('deck:'+deckNumber, function(err, word) {
+    redisClient.lindex('deck:'+deckNumber, offset, function(err, pivot) {
+      redisClient.linsert('deck:'+deckNumber, 'AFTER', pivot, word, function(err, ok) {
         // console.log('  -- linsert deck AFTER ' + pivot + ' ' + word);
         return callback(err, ok);
       });
@@ -191,13 +191,13 @@ function putWayBack(callback) {
 
 function guessedRight(callback) {
   var word = currentWord;
-  redisClient.get('known:'+word, function(err, times) {
+  redisClient.get('known:'+deckNumber+':'+word, function(err, times) {
     times = parseInt(times || '0', 10);
     //console.log("guessed right " + times + " times already");
     times = times + 1;
 
     // add one to the number of correct guesses
-    redisClient.set('known:'+word, times, function(err, ok) {
+    redisClient.set('known:'+deckNumber+':'+word, times, function(err, ok) {
       //console.log("set known ->" + err + " " + ok);
       if (err) return callback(err);
 
@@ -225,13 +225,13 @@ function guessedRight(callback) {
 
 function guessedWrong(callback) {
   var word = currentWord;
-  redisClient.get('known:'+word, function(err, times) {
+  redisClient.get('known:'+deckNumber+':'+word, function(err, times) {
     times = parseInt(times || '0', 10);
 
     // subtract one from the number of correct guesses
     times = Math.max(0, times-1);
 
-    redisClient.set('known:'+word, times, function(err, ok) {
+    redisClient.set('known:'+deckNumber+':'+word, times, function(err, ok) {
 
       // now put the card between 5 and 20 places back in the deck
       offset = Math.floor(Math.random() * 5) + 5;
@@ -251,7 +251,7 @@ function guessedWrong(callback) {
 
 function drawCard() {
   //showFrontOfDeck();
-  redisClient.lindex('deck-'+deckNumber, 0, function(err, word) {
+  redisClient.lindex('deck:'+deckNumber, 0, function(err, word) {
     if (err) throw(err);
 
     currentWord = word;
@@ -260,7 +260,7 @@ function drawCard() {
     console.log(currentWord);
 
     // get the definition
-    redisClient.get('vocab:'+word, function(err, def) {
+    redisClient.get('vocab:'+deckNumber+':'+word, function(err, def) {
       if (err) throw(err);
       currentDef = def;
     });
