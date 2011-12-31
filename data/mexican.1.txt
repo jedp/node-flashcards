@@ -193,6 +193,9 @@ bonito
 because
 porque
 
+because of
+debido 
+
 bed
 la cama
 
@@ -286,7 +289,7 @@ la librería
 boots 
 las botas
 
-bother
+to bother
 molestar
 
 bottle
