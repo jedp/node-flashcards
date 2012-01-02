@@ -13,7 +13,43 @@ var tempNumber;
 var config = require("../config");
 var redis = require("redis").createClient(config.redis_port);
 
-vows.describe("flash.js test").addBatch({
+vows.describe("flash.js test")
+
+.addBatch({
+  "Starting fresh: ": {
+    topic: new(require("../flash"))('_test'),
+
+    "if the test db exists": {
+      topic: function(flash) { 
+               redis.del(flash.getDeckName(), this.callback); 
+             }, 
+
+      "tear it down": function(err, ok) {
+        assert.isNull(err);
+      }
+    }
+
+  }
+
+})
+
+.addBatch({
+  "Setting up: ": {
+    topic: new(require("../flash"))('_test'),
+
+    "initializing the test db": {
+      topic: function(flash) { flash.maybeInitializeDeck(this.callback) },
+
+      "like so": function(err, deckLength) {
+        assert.isNull(err);
+        assert.isNumber(deckLength);
+        assert.notEqual(deckLength, 0);
+      }
+    }
+  }
+})
+
+.addBatch({
   "The config file": {
     topic: require("../config"),
     "specifies redis port and host": function(topic) {
@@ -24,18 +60,6 @@ vows.describe("flash.js test").addBatch({
 
   "A flash card deck": {
     topic: new(require("../flash"))('_test'),
-
-    "once initialized": {
-      topic: function(flash) { 
-               flash.start(this.callback); 
-             },
-
-      "has cards in it.": function(err, numCards) {
-        assert.isNull(err);
-        assert.isNumber(numCards);
-        assert.notEqual(numCards, 0);
-      },
-    },
 
     "lets you draw the first card": {
       topic: function(flash) { flash.drawCard(this.callback); },
@@ -155,9 +179,29 @@ vows.describe("flash.js test").addBatch({
         }
 
       }
-    }    
-    
+    },
 
   }
-}).export(module);
+})
+
+.addBatch({
+  "Cleaning up: ": {
+    topic: new(require("../flash"))('_test'),
+
+    "tearing down the test db": {
+      topic: function(flash) { 
+               redis.del(flash.getDeckName(), this.callback); 
+             }, 
+
+      "like so": function(err, ok) {
+        assert.isNull(err);
+      }
+    }
+
+  }
+
+})
+
+
+.export(module);
 
