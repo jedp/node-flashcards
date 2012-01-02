@@ -82,9 +82,9 @@ module.exports = function Flash(user) {
     var filename = __dirname + '/data/' + self.decks[self.deckNumber].filename;
     require('./database').getNewDeck(self.user, self.deckNumber, function() {
       self.redisClient.llen(self.getDeckName(), function(err, length) {
-        if (err) return callback (err, length);
+        if (err) return callback (err);
         console.log("   OK, reshuffled the deck.");
-        return callback (null);
+        return callback (null, length);
       });
     });
   }
