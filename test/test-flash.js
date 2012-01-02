@@ -42,6 +42,12 @@ vows.describe("flash.js test")
 })
 
 .addBatch({
+  "Flash throws an Error if initialized without a user name": function() {
+    assert.throws(function() {new Flash()}, Error)
+  }
+})
+
+.addBatch({
   "Setting up: ": {
     topic: new Flash('_test'),
 
