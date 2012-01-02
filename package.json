@@ -4,6 +4,8 @@
 
  "description": "Flash cards",
 
+ "main": "lib/flash.js",
+
  "dependencies": {
     "redis": "",
     "vows": ""

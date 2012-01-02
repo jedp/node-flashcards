@@ -1,9 +1,16 @@
 var vows = require('vows');
 var assert = require('assert');
 
+try {
+  var Flash = require("../lib-instrumented/flash");
+} catch (err) {
+  require('util').debug("lib-instrumented not found, so no code coverage reporting");
+  var Flash = require("../lib/flash");
+}
+
 vows.describe("Smoke test").addBatch({
   "When you make a new flash object": {
-    topic: new(require('../flash'))('_test'),
+    topic: new Flash('_test'),
 
     "the redis keys are correct": function(topic) {
       assert.equal(topic.getDeckName(), 'deck:_test:0');

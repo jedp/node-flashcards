@@ -13,11 +13,18 @@ var tempNumber;
 var config = require("../config");
 var redis = require("redis").createClient(config.redis_port);
 
+try {
+  var Flash = require("../lib-instrumented/flash");
+} catch (err) {
+  require('util').debug("lib-instrumented not found, so no code coverage reporting");
+  var Flash = require("../lib/flash");
+}
+
 vows.describe("flash.js test")
 
 .addBatch({
   "Starting fresh: ": {
-    topic: new(require("../flash"))('_test'),
+    topic: new Flash('_test'),
 
     "if the test db exists": {
       topic: function(flash) { 
@@ -35,7 +42,7 @@ vows.describe("flash.js test")
 
 .addBatch({
   "Setting up: ": {
-    topic: new(require("../flash"))('_test'),
+    topic: new Flash('_test'),
 
     "initializing the test db": {
       topic: function(flash) { flash.maybeInitializeDeck(this.callback) },
@@ -59,7 +66,7 @@ vows.describe("flash.js test")
   },
 
   "A flash card deck": {
-    topic: new(require("../flash"))('_test'),
+    topic: new Flash('_test'),
 
     "lets you draw the first card": {
       topic: function(flash) { flash.drawCard(this.callback); },
@@ -186,7 +193,7 @@ vows.describe("flash.js test")
 
 .addBatch({
   "Cleaning up: ": {
-    topic: new(require("../flash"))('_test'),
+    topic: new Flash('_test'),
 
     "tearing down the test db": {
       topic: function(flash) { 

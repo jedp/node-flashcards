@@ -9,7 +9,7 @@ if (!module.parent) {
   var stdin = process.openStdin();
   require('tty').setRawMode(true);    
 
-  var flash = new(require('./flash'))(user);
+  var flash = new(require('./lib/flash'))(user);
 
   /*
    * let the learning begin!

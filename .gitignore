@@ -3,6 +3,10 @@
 *.swp
 *.swo
 
+# jscoverage files
+lib-instrumented
+coverage.html
+
 # other stuff
 *.zip
 *.gz
