@@ -13,29 +13,42 @@ vows.describe("reader.js test")
   "The reader": {
     topic: reader,
 
-    "can read .txt files": {
+    "given a .txt file": {
       topic: function(reader) {
                reader.read(__dirname + "/../data/mexican.1.txt", this.callback);
              },
 
-      "like so": function(err, vocab) {
+      "can read it": function(err, vocab) {
         assert.isNull(err);
         assert.isArray(vocab);
         assert.equal(vocab[0][0], "about (prep)");
       }
     },
 
-    "can read .json files": {
+    "given a .json file": {
       topic: function(reader) {
                reader.read(__dirname + "/../data/mexican-verbs.1.json", this.callback);
              },
 
-      "like so": function(err, vocab) {
+      "can read it": function(err, vocab) {
         assert.isNull(err);
         assert.isArray(vocab);
         assert.equal(vocab[0][0], "añadir: gerundio");
       }
 
+    },
+
+    "given an unsupported file type": {
+      topic: function(reader) {
+               // can't read .js files
+               reader.read(__filename, this.callback);
+             },
+
+      "calls back with an error": function(err, vocab) {
+        assert.notEqual(err, null);
+        assert.isUndefined(vocab);
+      }
+              
     }
   }
 })
