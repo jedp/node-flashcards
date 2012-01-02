@@ -6,6 +6,7 @@ var rightWord;
 var easyWord;
 var wrongWord;
 var firstWord;
+var formerWord;
 var tempDef;
 var tempNumber;
 
@@ -65,7 +66,7 @@ vows.describe("flash.js test")
     }
   },
 
-  "A flash card deck": {
+  "Flash": {
     topic: new Flash('_test'),
 
     "lets you draw the first card": {
@@ -97,7 +98,7 @@ vows.describe("flash.js test")
                var self = this;
                flash.drawCard(function(err, word) {
                  rightWord = word;
-                  flash.guessedWrong(function(err, offset) {
+                  flash.guessedRight(function(err, offset) {
                     self.callback(err, offset);
                   });
                });
@@ -187,6 +188,28 @@ vows.describe("flash.js test")
 
       }
     },
+
+    "lets you change decks": {
+      topic: function(flash) {
+               var self = this;
+               flash.drawCard(function(err, word) {
+                 formerWord = word;
+                 flash.chooseDeck(1, function(err) {
+                   flash.drawCard(function(err, word) {
+                     self.callback(err, word);
+                   });
+                 });
+               });
+             },
+
+      "like so": function (err, word) {
+        assert.isNull(err);
+        assert.isString(formerWord);
+        assert.isString(word);
+        assert.notEqual(word, formerWord);
+      }
+
+    } 
 
   }
 })
