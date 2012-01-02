@@ -28,7 +28,6 @@ vows.describe("Smoke test").addBatch({
       assert.isFunction(topic.guessedWrong);
       assert.isFunction(topic.drawCard);
       assert.isFunction(topic.getDefinition);
-      assert.isFunction(topic.end);
     }
   }
 }).export(module);
