@@ -1,6 +1,6 @@
+var fs = require('fs');
 var redis = require('redis');
 var config = require('./config');
-var fs = require('fs');
 
 module.exports = function Flash(user) {
   if (typeof user !== 'string') {
@@ -8,7 +8,7 @@ module.exports = function Flash(user) {
   }
 
   this.user = user;
-  this.decks = JSON.parse(fs.readFileSync("data/decks.json"));
+  this.decks = JSON.parse(fs.readFileSync(__dirname + "/data/decks.json"));
   this.deckNumber = 0;
   this.redisClient = redis.createClient(config.redis_port, config.redis_host);
 
@@ -41,12 +41,14 @@ module.exports = function Flash(user) {
       if (err) return callback(err);
 
       if (length === 0) {
-        return shuffleDeck(callback);
+        return self.shuffleDeck(callback);
       } else {
-        return callback(null);
+        return callback(null, length);
       }
     });
   };
+
+  this.start = this.maybeInitializeDeck;
 
   /* 
    * chooseDeck(deckNumber, callback)
@@ -77,10 +79,10 @@ module.exports = function Flash(user) {
   this.shuffleDeck = function (callback) {
     callback = callback || function() {};
 
-    var filename = 'data/' + self.decks[self.deckNumber].filename;
+    var filename = __dirname + '/data/' + self.decks[self.deckNumber].filename;
     require('./database').getNewDeck(self.user, self.deckNumber, function() {
       self.redisClient.llen(self.getDeckName(), function(err, length) {
-        if (err) return callback (err);
+        if (err) return callback (err, length);
         console.log("   OK, reshuffled the deck.");
         return callback (null);
       });
@@ -99,7 +101,7 @@ module.exports = function Flash(user) {
     self.redisClient.lpop(deckName, function(err, word) {
       self.redisClient.lindex(deckName, offset, function(err, pivot) {
         self.redisClient.linsert(deckName, 'AFTER', pivot, word, function(err, ok) {
-          return callback(err, ok);
+          return callback(err, offset);
         });
       });
     });
@@ -112,9 +114,7 @@ module.exports = function Flash(user) {
    */
 
   this.putWayBack = function(callback) {
-    self.redisClient.llen(self.getDeckName(), function(err, length) {
-      self.putBack(length, callback);
-    });
+    self.putBack(-1, callback);
   };
 
   /* 
@@ -149,7 +149,7 @@ module.exports = function Flash(user) {
               Math.floor(times * (10 + (Math.floor(Math.random() * 3 + 7)))),
               length);
 
-            self.putBack(offset, callback);
+            return self.putBack(offset, callback);
           });
         });
       });
@@ -181,7 +181,7 @@ module.exports = function Flash(user) {
             // now put the card between 5 and 20 places back in the deck
             offset = Math.min(Math.floor(Math.random() * 5) + 5, length);
 
-            self.putBack(offset, callback);
+            return self.putBack(offset, callback);
           });
         });
       });
@@ -217,6 +217,10 @@ module.exports = function Flash(user) {
         return callback(null, def);
       });
     });
+  };
+
+  this.end = function(callback) {
+    self.redisClient.end();
   };
 
   return this;
