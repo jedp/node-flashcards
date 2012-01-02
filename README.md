@@ -26,12 +26,25 @@ And then run the CLI:
 
     node cli.js
 
-Behavioral Tests
-----------------
+Tests and Coverage
+------------------
 
 Tests are run with [vows.js](http://vowsjs.org) like so:
 
     vows test/*.js --spec
+
+For code coverage, run [jscoverage](https://github.com/visionmedia/node-jscoverage) on the lib dir like so:
+
+    jscoverage lib lib-instrumented
+
+If `lib-instrumented` exists, the tests will import the `flash` module from it.
+So you can calculate code coverage like so:
+
+    vows test/*.js --spec --cover-html
+
+This will generate `coverage.html`.
+
+
 
 
 
