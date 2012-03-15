@@ -7,7 +7,14 @@
  "main": "lib/flash.js",
 
  "dependencies": {
-    "redis": "",
+    "redis": ""
+ },
+
+ "devDependencies": {
     "vows": ""
+ },
+
+ "scripts": {
+    "test": "vows test/*.js --spec"
  }
 }
