@@ -3,6 +3,9 @@
 *.swp
 *.swo
 
+# local config
+redis.conf
+
 # jscoverage files
 lib-instrumented
 coverage.html
