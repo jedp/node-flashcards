@@ -1,3 +1,5 @@
+[![build status](https://secure.travis-ci.org/jedp/node-flashcards.png)](http://travis-ci.org/jedp/node-flashcards)
+
 Flash - Simple Vocabulary Flash Cards
 =====================================
 
