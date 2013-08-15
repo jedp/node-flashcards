@@ -1,0 +1,904 @@
+present (n)
+het cadeau(s)
+
+catalog
+de catalogus (-i)
+
+centimeter
+de centimeter(s)
+
+central
+centraal
+
+center (n)
+het centrum(s)
+
+champagne
+de champagne(s)
+
+surgeon
+de chirurg(en)
+
+lemon
+de citroen(en)
+
+colleague
+de collega('s)
+
+commentary
+het commentaar
+
+compromise (n)
+het compromis(sen)
+
+computer
+de computer(s)
+
+concert
+het concert(en)
+
+conference
+de conferentie(s)
+
+to copy
+copiëren
+
+at, on
+aan
+
+to ring
+aanbellen
+
+to recommend
+aanbevelen
+
+turn on
+aandoen
+
+given that
+aangezien
+
+to look at
+aankijken
+
+to arrive
+aankomen
+
+to accept, to take on
+aannemen
+
+to acquire
+aanschaffen
+
+to light
+aanstecken
+
+note (n)
+de aantekening
+
+attractive
+aantrekkelijk, bekoorlijk
+
+to put on; attract
+aantrekken
+
+to attract, charm
+bekoren
+
+bell
+de bel(len)
+
+ridiculous
+belachelijk
+
+importance
+het belang(en)
+
+important
+belangrijk
+
+Belgian
+Belgisch
+
+to ring, phone
+bellen
+
+to promise
+beloven
+
+below
+beneden
+
+to figure
+berekenen
+
+mountain
+de berg(en)
+
+to protect
+beschutten
+
+decision
+het besluit(en)
+
+to discuss, reserve
+bepreken
+
+to accept
+aanvaarden
+
+to obtain; hire
+aanwerven
+
+present (adj)
+aanwezig
+
+pleasant
+aardig
+
+academic
+academisch
+
+accent (n)
+het accent(en)
+
+behind
+achter
+
+behind (dir)
+acteraan
+
+address (n)
+het adres(sen)
+
+to advise
+adviseren
+
+off, down
+af
+
+finished
+afgewerkt
+
+to depend on
+afhangen (van)
+
+appointment, agreement
+de afspraak
+
+to make an appointment
+afspreken
+
+distance (n)
+de afstand(en)
+
+to wonder
+(zich) afvragen (a)
+
+to wash (dishes)
+afwassen
+
+to remove
+afzetten
+
+policeman
+de agent(en)
+
+already
+al
+
+all
+al; alle(n); allemaal
+
+paragraph
+de alinea('s)
+
+both
+allbei
+
+as
+als
+
+if, when
+als
+
+always
+altijd
+
+aluminum
+het aluminium
+
+embassy
+de ambassade(s)
+
+ambulance
+de ambulance(s)
+
+the USA
+het Amerika
+
+other
+ander
+
+one and a half
+anderhalf
+
+otherwise
+anders
+
+something else
+iets anders
+
+answer (n)
+het antwoord(en)
+
+to answer
+antwoorden
+
+apple
+de appel(s/en)
+
+April
+april
+
+poor
+arm
+
+arm
+de arm(en)
+
+to arrest
+arresteren
+
+physician
+de arts(en)
+
+August
+augustus
+
+automobile
+de auto('s)
+
+evening
+de avond(en)
+
+way, street; job
+de baan (banen)
+
+owner, boss (m)
+de baas (bazen)
+
+owner, boss (f)
+de bazin(nen)
+
+baby
+de baby('s)
+
+bath
+het bad(en)
+
+bathroom
+de badkamer(s)
+
+luggage
+de bagage
+
+box (n)
+het bakje(s)
+
+to bake, fry
+bakken
+
+baker
+de bakker(s)
+
+tire
+de band(en)
+
+afraid
+bang
+
+bench, sofa, couch, bank
+de bank(en)
+
+to barbecue
+barbecueën
+
+elementary school
+de basisschool(-scholen)
+
+to confirm
+beame
+
+to answer
+beantwoorden
+
+bed
+het bed(den)
+
+to thank
+bedanken
+
+to mean, intend
+bedoelen
+
+amount (money)
+het bedrag(en)
+
+company
+get bedrijf (bedrijven)
+
+picture, image
+get beeld(en)
+
+sculptor
+de beeldhouwer(s)
+
+bone, leg
+de been (benen)
+
+little bit
+beetje
+
+beginning
+het begin (-)
+
+to begin
+beginnen
+
+to understand, comprehend
+begrijpen
+
+desire (n)
+het behagen(s)
+
+to wallpaper
+behangen
+
+need (n)
+de behoefte(s)
+
+both
+beide(n)
+
+beige
+beige
+
+known
+bekend
+
+to write a ticket
+bekeuren
+
+traffic ticket
+de bekeuring(en)
+
+
+drink (n)
+de drank
+
+mineral water
+het mineraalwater
+
+juice
+het sap
+
+coffee
+het koffie
+
+milk
+de melk
+
+lemonade
+de limonade
+
+wine
+de wijn
+
+beer
+het bier
+
+tea
+de thee
+
+to drink
+drinken
+
+color (n)
+de kleur
+
+blue
+blauw
+
+red
+rood
+
+green
+groen
+
+yellow
+geel
+
+brown
+bruin
+
+Brussels
+Brussel
+
+shower (n)
+de bui(en)
+
+to bend
+buigen
+
+outside (of)
+buiten
+
+foreigner
+de buitenlander(s)
+
+black
+zwart
+
+light (adj)
+licht
+
+dark
+donker
+
+hour
+het uur
+
+time (n)
+de tijd
+
+minute (n)
+de minuut
+
+clock
+het horloge
+
+please
+alstublieft
+
+stop
+tegenhouden
+
+to exist
+bestaan
+
+to order, deliver
+besellen
+
+to pay
+betalen
+
+to mean, signify
+betekenen
+
+soon
+binnenkort
+
+better
+beter
+
+dependable
+betrouwbaar
+
+turn (n)
+de beurt(en)
+
+to be located
+(zich) bevinden
+
+to liberat
+befrijden
+
+to move
+bewegen
+
+movement
+de beweging
+
+broom
+de bezem(s)
+
+visit (n)
+de bezoek(en)
+
+to visit, make a visit
+een bezoek brengen aan
+
+library
+de bibliotheek (bibliotheken)
+
+to offer
+bieden
+
+at the house of, with, at
+bij
+
+to recover from
+bijkomen (van)
+
+for example
+bijvoorbeeld
+
+to tie
+binden
+
+inside of
+binnen
+
+to come in
+binnenkomen
+
+domestic
+binnenlands
+
+to come in, arrive
+binnenlopen
+
+biographer
+de biograaf (biografen)
+
+movies, movie theater
+de bioscoop (bioscopen)
+
+leaf
+het blad (bladeren)
+
+white
+blank, wit
+
+blue
+blauw
+
+pale
+bleek
+
+in a weak way, pale
+bleekjes
+
+happy (about)
+blij (om)
+
+to stay; keep on
+blijven (+inf)
+
+flower
+de bloem(en)
+
+blouse
+de bloes (bloezen)
+
+to blush
+blozen
+
+fire extinguisher
+het blusapparaat (-apparaten)
+
+to extinguish
+blussen
+
+book (n)
+het boek(en)
+
+bookcase
+de boekenkast(en)
+
+booklet
+het boekje(s)
+
+mess, stuff
+de boel (-)
+
+farmer
+de boer(en)
+
+farm (n)
+de boerderij(en)
+
+boutique
+de boetiek(s)
+
+bosom
+de boezem(s)
+
+bomb (n)
+de bom(men)
+
+errand, message
+de boodschap(pen)
+
+tree
+de boom (bomen)
+
+bean
+de boon (bonen)
+
+mad (at)
+boos (op)
+
+boat
+de boot (boten)
+
+plate; sign; blackboard
+het bord(en)
+
+forest
+het bos(sen)
+
+to build
+bouwen
+
+above
+boven
+
+to come up
+bovenkomen
+
+breadth
+de breedte(s)
+
+to bring, take
+bringen
+
+letter
+de brief (brieven)
+
+pair of pants
+de broek(en)
+
+pants pocket
+de broekzak(ken)
+
+brother
+de broer(s)
+
+bread
+het broot (broden)
+
+breadroll
+get broodje(s)
+
+Bruges
+Brugge
+
+wedding anniversary
+het bruiloftsfeest(en)
+
+foreign
+buitenlands
+
+country house
+het buitenverblijf (-verblijven)
+
+outside world
+de buitenwereld
+
+suburb
+de buitenwijk(en)
+
+box; bus
+de bus(sen)
+
+bust (n)
+de buste(s)
+
+neighbor (m)
+de buur (buren)
+
+neighbor (f)
+de buurvrouw(en)
+
+neighborhood
+de buurt(en)
+
+sweets
+de zoetigheden
+
+cheesecake
+de kwarktaart
+
+sausage, wurst
+de worst
+
+shellfish
+het schaaldier
+
+wing
+de vleugel
+
+minced meat
+het gehakt
+
+salami
+de salami
+
+fruit
+het fruit
+
+banana
+de banaan
+
+potato
+de aardappel
+
+cucumber
+de komkommer
+
+spinach
+de spinazie
+
+lettuce
+de kropsla
+
+nutritious
+voedzaam
+
+to brew
+brouwen
+
+soft drink
+de frisdrank
+
+sparkling wine
+de mousserende wijn
+
+dry (adj)
+droog
+
+bread
+het broot
+
+permission
+de toestemming
+
+may (v aux)
+mogen
+
+because
+daar
+
+day
+de dag(en)
+
+daily
+dagelijks
+
+roof
+het dak(en)
+
+than
+dan
+
+then
+dan
+
+dance (n)
+de dans(en)
+
+to dance
+dansen
+
+dancer (m/f)
+de danser(es)
+
+intenstine
+de darm(en)
+
+necktie
+de das(sen)
+
+that (pron)
+dat
+
+that (conj)
+dat
+
+date (n)
+de datum(s)
+
+December
+december
+
+part (n)
+het deel (delen)
+
+participle
+het deelwoord(en)
+
+blanken
+de deken(s)
+
+The Hague
+Den Haag
+
+to think
+denken
+
+such
+dergelijk
+
+nevertheless
+desalniettemin
+
+to desert
+deserteren
+
+detective; murder mystery
+de detective(s)
+
+door
+de deur(en)
+
+this, these
+deze
+
+closed
+dicht
+
+to close, lock
+dichtdoen
+
+ought (to) (v aux)
+dienen (te)
+
+deep(ly)
+diep
+
+deep freeze
+de diepvries
+
+animal
+de dier(en)
+
+zoo
+de dierentuin(en)
+
+diesel
+de diesel(s)
+
+dike
+de dijk(en)
+
+fat, thick
+dik
+
+thing
+het ding(en)
+
+Tuesday
+de dinsdag(en)
+
+diploma
+het diploma('s)
+
+graduation ceremony
+de diploma-uitreiking(en)
+
+director, manager
+de directeur(en)
+
+instructor, teacher (m)
+de docent(en)
+
+instructor, teacher (f)
+de docente(n)
+
+daughter
+de dochter(s)
+
+documentary
+de documentaire(s)
+
+to do
+doen
+
+doctor
+de dokter(s)
+
+Thursday
+de donderdag(en)
+
