@@ -902,3 +902,13 @@ de dokter(s)
 Thursday
 de donderdag(en)
 
+remove, delete
+verweijderen
+
+widen
+verwijden
+
+news; message
+het bericht
+
+
