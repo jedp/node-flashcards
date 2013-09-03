@@ -1,0 +1,314 @@
+answer
+antwoorden (antwoordt), antwoordde, geantwoord
+
+bake, fry
+bakken (bakt), bakte, gebakken
+
+spoil, ruin; spoil, go bad
+bederven (bederft), bedierf, bedorven
+
+mean, intend
+bedoelen (bedoelt), bedoelde, bedoeld
+
+deceive, cheat
+bedriegen (bedriegt), bedroog, bedrogen
+
+begin
+beginnen (begint), begon, begonnen
+
+store, put up; accommodate; recover (sth)
+bergen (bergt), borg, geborgen
+
+pay, pay for
+betalen (betaalt), betaalde, betaald
+
+order, command
+bevelen (beveelt), beval, bevolen
+
+ask, entreat
+bidden (bidt), bad, gebeden
+
+offer, make a bid
+bieden (biedt), bod, geboden
+
+bite
+bijten (bijt), beet, gebeten
+
+tie
+binden (bindt), bond, gebonden
+
+blow
+blazen (blaast), blies, geblazen
+
+be evident, obvious; turn out that
+blijken (blijkt), bleek, gebleken
+
+stay, remain
+blijven (blijft), bleef, gebleven
+
+build
+bouwen (bouwt), bouwde, gebouwd
+
+roast, fry, grill
+braden (braadt), braadde, gebraden
+
+burn (trans; intrans)
+branden (brandt), brandde, gebrand
+
+break (trans; intrans)
+breken (breekt), brak, gebroken
+
+bring
+brengen (brengt), bracht, gebrachen
+
+bend, bow
+buigen (buigt), boog, gebogen
+
+thank, say thanks
+(be)danken ((be)dankt), (be)dankte, gedankt/bedankt
+
+dance
+dansen (danst), danste, gedanst
+
+cover; set the table
+dekken (dekt), dekte, gedekt
+
+divide, share
+delen (deelt), deelde, gedeeld
+
+think
+denken (denkt), dacht, gedacht
+
+kill, slay
+doden (doodt), doodde, gedood
+
+do
+doen (doet), deed, gedaan
+
+carry, bear
+dragen (draagt), droeg, gedragen
+
+drive, propel, carry on, run; float, drift (intrans)
+drijven (drijft), dreef, gedreven
+
+push, press, crowd
+dringen (dringt), drong, gedrongen
+
+drink
+drinken (drinkt), dronk, gedronken
+
+press, oppress, weigh upon; print
+drukken (drukt), drukte, gedrukt
+
+last, continue, endure (impers)
+duren (duurt), duurde, geduurd
+
+push, shove
+duwen (duwt), duwde, geduwd
+
+force, compel
+dwingen (dwingt), dwong, gedwongen
+
+eat
+eten (eet), at, gegeten
+
+bicycle
+fietsen (fietst), fietste, gefietst
+
+go
+gaan (gaat), ging, gegaan
+
+to happen (impers)
+gebeuren (gebeurt), gebeurde, gebeurd
+
+use, make use of; partake (food, drink)
+gebruiken (gebruikt), gebruikte, gebruikt
+
+believe, be of the opinion
+geloven (gelooft), geloofde, geloofd
+
+cure, heal; get well, recover
+genezen (geneest), genas, genezen
+
+enjoy
+genieten (geniet), genoot, genoten
+
+give
+geven (geeft), gaf, gegeven
+
+pour
+gieten (giet), goot, gegoten
+
+glide, slip, slide
+glijden (glijdt), gleed, gegleden
+
+throw, cast
+gooien (gooit), gooide, gegooid
+
+dig
+graven (graaft), groef, gegraven
+
+catch, grasp
+grijpen (grijpt), greep, gegrepen
+
+grow
+groeien (groeit), groeide, gegroeid
+
+greet
+groeten (groet), groette, gegroet
+
+hurry (trans; intrans)
+haasten (haast), haastte, gehaast
+
+fetch, get, go for
+halen (haalt), haalde, gehaald
+
+hangen (trans; intrans)
+hangen (hangt), hing, gehangen
+
+have
+hebben (heb, hebt, heeft), had, gehad
+
+raise, lift; levy (taxes)
+heffen (heft), hief, geheven
+
+help
+helpen (helpt), hielp, geholpen
+
+to remind; to recall, remember (reflex)
+herinnern (herinnert), herinnerde, herinnerd
+
+be called, be named
+heten (heet), heette, geheten
+
+belong, be proper; hear (passive only)
+horen (hoort), hoorde, gehoord
+
+hold, keep, contain; love, be fond of (+ van)
+houden (houdt), hield, gehouden
+
+cut, hack, hew
+houwen (houwt), hieuw, gehouwen
+
+rent (from)
+huren (huurt), huurde, gehuurd
+
+know, be acquainted with
+kennen (kent), kende, gekend
+
+choose, select
+kiesen (kiest), koos, gekozen
+
+view, look (at) (usu. + op, naar)
+kijken (kijkt), kek, gekeken
+
+climb, mount, ascend
+klimmen (klimt), klom, geklommen
+
+ring, sound; clink (glasses); rivet
+klinken (klinkt), klonk, geklonken
+
+knock, tap, beat
+kloppen (klopt), klopte, geklopt
+
+boil, cook
+koken (kookt), kookte, gekookt
+
+come
+komen (komt), kwam, gekomen
+
+buy
+kopen (koopt), kocht, gekocht
+
+to cost (impers)
+kosten (koste), kostte, gekost
+
+get, receive, obtain, acquire
+krijgen (krijgt), kreeg, gekregen
+
+creep, crawl
+kruipen (kruipt), kroop, gekropen
+
+be able to
+kunnen (kan, kunt, kan), kon, gekund
+
+laugh
+lachen (lacht), lachte, gelachen
+
+load
+laden (laadt), laadde, geladen
+
+let, allow; omit; refrain from; cause, have done
+laten (laat), liet, gelaten
+
+lay, place
+leggen (legt), legde, gelegd
+
+lead, guide
+leiden (leidt), leidde, geleid
+
+lend (to + aan); borrow (from + van)
+lenen (leent), leende, geleend
+
+teach; learn
+leren (leert), leerde, geleerd
+
+live
+leven (leeft), leefde, geleefd
+
+read; gather, glean
+lezen (leest), las (lazen), gelesen
+
+lie, tell lies
+liegen (liegt), loog, gelogen
+
+lie, be situated
+liggen (ligt), lag, gelegen
+
+suffer, endure; (+ mogen) like
+lijden (lijdt), leed, geleden
+
+be like, look like (+ op)
+lijken (lijkt), leek, geleken
+
+walk, run; run (trains, clocks, etc.)
+lopen (loopt), liep, gelopen
+
+listen (to + naar); obey, follow (+ naar)
+luisteren (luistert), luisterde, geluisterd
+
+succeed (impers)
+lukken (lukt), lukte, gelukt
+
+make, do
+maken (maakt), maakte, gemaakt
+
+measure
+meten (meet), mat, gemeten
+
+avoid, shun
+mijden (mijdt), meed, gemeden
+
+have to, must, be obliged to
+moeten (moet), moest, gemoeten
+
+be allowed to, be permitted to, may
+mogen (mag), mocht, gemoogd
+
+take
+nemen (neemt), nam, genomen
+
+name, call
+noemen (noemt), noemde, genoemd
+
+meet, encounter
+ontmoeten (ontmoet), ontmoette, ontmoet
+
+palce, put
+plaatsen (plaatst), plaatste, geplaatst
+
+talk, chat
+praten (praat), praatte, gepraat
+
+
+
